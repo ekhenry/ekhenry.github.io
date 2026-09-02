@@ -319,6 +319,48 @@ details.abstract > summary:hover { color: $blue-deep; }
 }
 .award-row span:last-child { color: $muted; white-space: nowrap; }
 
+// ---- Teaching: collapsible course rows ----------------------------------
+.course {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 1.5rem;
+  border-bottom: 1px solid $panel-edge;
+  padding: 0.15rem 0;
+}
+.course details.abstract { border-top: none; margin: 0; }
+.course details.abstract > summary {
+  font-family: $headings-font-family;
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  color: $ink;
+  padding: 0.7rem 0;
+}
+.course details.abstract > summary:hover { color: $blue-mid; }
+.course .abstract-body { padding: 0 0 0.85rem 1.4rem; }
+.course .abstract-body a {
+  font-size: 0.93rem;
+  color: $blue-mid;
+  border-bottom: 1px solid rgba(44, 95, 138, 0.3);
+}
+.course-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 1.75rem;
+  padding: 0.7rem 0;
+  font-size: 0.95rem;
+  color: $muted;
+  white-space: nowrap;
+}
+.course-score { font-variant-numeric: tabular-nums; font-weight: 600; color: $blue-deep; }
+
+@media (max-width: 640px) {
+  .course { grid-template-columns: 1fr; gap: 0; }
+  .course-meta { padding-top: 0; padding-bottom: 0.7rem; gap: 1rem; }
+}
+
 // ---- Teaching tables ----------------------------------------------------
 .teach-table {
   width: 100%;

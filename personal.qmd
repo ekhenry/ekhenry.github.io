@@ -7,7 +7,7 @@ description-meta: "A little outside the research."
 Outside of research and teaching, most of what follows is football, travel, and the
 department's own small traditions.
 
-<!-- TODO(lily): rewrite the sentence above in your own voice whenever you like — this page
+<!-- TODO(lily): rewrite the sentence above in your own voice whenever you like. This page
      reads best when it sounds like you. -->
 
 ::: {.photo-grid}
@@ -39,4 +39,4 @@ department's own small traditions.
 
 <!-- TODO(lily): these are the six photos from your current "Etc." page, with the same
      captions. Export them from Google Sites and drop them in assets/photos/ using the
-     filenames above — or send them to me and I'll place and compress them. -->
+     filenames above, or send them to me and I'll place and compress them. -->

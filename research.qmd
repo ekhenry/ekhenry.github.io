@@ -24,7 +24,7 @@ asymptotics and illustrated with an application to innovation activity.
 </div>
 </details>
 
-<p class="paper-venue">Draft available on request — [email me](mailto:ekhenry@crimson.ua.edu?subject=Job%20market%20paper).</p>
+<p class="paper-venue">Draft available on request. [Email me](mailto:ekhenry@crimson.ua.edu?subject=Job%20market%20paper).</p>
 
 <!-- When the paper is ready to circulate: set jmp_public: true in _variables.yml and
      replace the venue line above with:
@@ -37,7 +37,7 @@ asymptotics and illustrated with an application to innovation activity.
 ::: {.paper}
 <p class="paper-kicker">Journal of Risk and Uncertainty · 2026</p>
 <p class="paper-title">Contests with Ambiguous Prizes</p>
-<p class="paper-authors">with [Cary Deck](https://carydeck.weebly.com/), [Aidan Hathaway](https://sites.google.com/view/aidanhathaway), [Tigran Melkonyan](https://tamelkonyan-cpu.github.io/), and [Samuel Redinger](https://www.samredinger.com/)</p>
+<p class="paper-authors">with [Cary Deck](https://carydeck.weebly.com/), [Aidan Hathaway](https://sites.google.com/view/aidanhathaway), [Tigran Melkonyan](https://tamelkonyan-cpu.github.io/), and [Sam Redinger](https://www.samredinger.com/)</p>
 
 <details class="abstract">
 <summary>Abstract</summary>
@@ -45,13 +45,13 @@ asymptotics and illustrated with an application to innovation activity.
 This paper examines behavior in contests where the prize value is ambiguous. We develop a
 theoretical model of bidding in a Tullock contest with an ambiguous prize where contestants
 account for the ambiguity attitude of their rival. Ambiguity affects optimal behavior via two
-countervailing channels — a direct effect arising from contestants' ambiguity about the value of
+countervailing channels - a direct effect arising from contestants' ambiguity about the value of
 the prize and an indirect effect corresponding to the effect of ambiguity on the opponent's
 behavior. Using a controlled laboratory experiment, we elicit individual risk and ambiguity
 attitudes and compare predicted and observed behavior in contests with an ambiguous prize, a
 risky prize and certain prizes. A comparison between contests with ambiguous and risky prizes
 shows that participants invest significantly less under ambiguity. Additionally, we decompose
-the effect of changing from a certain prize to an ambiguous prize into two components — the
+the effect of changing from a certain prize to an ambiguous prize into two components - the
 first is the effect of introducing risk and the second is the effect of introducing ambiguity.
 Empirically, we find that both effects are significant, but work in opposite directions.
 </div>
@@ -126,17 +126,17 @@ significant returns to public capital.
 
 ## Conference presentations
 
-<div class="award-row"><span>Computational and Financial Econometrics — Berlin, Germany</span><span>2026</span></div>
-<div class="award-row"><span>Southern Economic Association — Houston, Texas</span><span>2026</span></div>
-<div class="award-row"><span>Midwest Econometrics Group — Cincinnati, Ohio</span><span>2026</span></div>
-<div class="award-row"><span>International Association for Applied Econometrics — Carçavelos, Portugal</span><span>2026</span></div>
-<div class="award-row"><span>European Workshop on Efficiency and Productivity Analysis — Munich, Germany</span><span>2026</span></div>
-<div class="award-row"><span>Conference of Southern Graduate Schools, 3MT Competition — Baton Rouge, Louisiana</span><span>2026</span></div>
+<div class="award-row"><span>Computational and Financial Econometrics, Berlin, Germany</span><span>2026</span></div>
+<div class="award-row"><span>Southern Economic Association, Houston, Texas</span><span>2026</span></div>
+<div class="award-row"><span>Midwest Econometrics Group, Cincinnati, Ohio</span><span>2026</span></div>
+<div class="award-row"><span>International Association for Applied Econometrics, Carçavelos, Portugal</span><span>2026</span></div>
+<div class="award-row"><span>European Workshop on Efficiency and Productivity Analysis, Munich, Germany</span><span>2026</span></div>
+<div class="award-row"><span>Conference of Southern Graduate Schools, 3MT Competition, Baton Rouge, Louisiana</span><span>2026</span></div>
 
 ## References
 
 ::: {.paper}
-<p class="paper-title">[Daniel J. Henderson](https://sites.ua.edu/dhenderson/) — Chair</p>
+<p class="paper-title">[Daniel J. Henderson](https://sites.ua.edu/dhenderson/), Chair</p>
 <p class="paper-venue">Robert and Mary Cobb Endowed Professor; Professor of Economics<br>
 Department of Economics, Finance & Legal Studies, University of Alabama</p>
 <p class="paper-links"><a href="mailto:djhenderson1@ua.edu">djhenderson1@ua.edu</a></p>

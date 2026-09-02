@@ -27,16 +27,15 @@ methods to questions in innovation and firm dynamics.
 :::
 
 ::: {.jm-banner}
-**On the 2026–27 academic job market.** I am available for interviews at the ASSA meetings and
-by video. See my [job market paper](research.qmd#jmp).
+**I am on the 2026–27 job market. See my [job market paper](research.qmd#jmp).**
 :::
 
 ## Research interests
 
-**Primary:** Econometric theory — panel data, nonparametric and semiparametric estimation,
+**Primary:** Econometric theory: panel data, nonparametric and semiparametric estimation,
 correlated random effects, interactive fixed effects.
 
-**Secondary:** Applied microeconomics — innovation, R&D and firm productivity; experimental
+**Secondary:** Applied microeconomics: innovation, R&D and firm productivity; experimental
 economics.
 
 ## Dissertation
@@ -47,33 +46,25 @@ Three chapters, each relaxing a functional-form assumption that standard panel e
 on unobserved heterogeneity. The first develops nonparametric correlated random effects and is
 published in *Seven Decades of Econometrics and Beyond*. The second carries the approach into
 nonlinear models, where the usual robustness of the linear case breaks down, and is under
-revision at *Economics Letters*. The third — my [job market paper](research.qmd#jmp) — adds
+revision at *Economics Letters*. The third, my [job market paper](research.qmd#jmp), adds
 interactive fixed effects. [All three are on the research page](research.qmd).
 
 Committee: [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) (chair), [Soroush Ghazi](https://sites.google.com/view/soroush-ghazi), [Robert Hammond](https://sites.google.com/view/bobhammond/), [Alexandra Soberón](https://scholar.google.com/citations?user=9MmoofYAAAAJ&hl=es), and [Emmanuel Tsyawo](https://estsyawo.github.io/).
 
 ## Education
 
-<div class="award-row"><span>**Ph.D., Economics** — University of Alabama</span><span>expected 2027</span></div>
-<div class="award-row"><span>**M.A., Economics** — University of Alabama, Accelerated Master's Program</span><span>2022</span></div>
-<div class="award-row"><span>**B.S., Economics** — University of Alabama, *summa cum laude*</span><span>2022</span></div>
+<div class="award-row"><span>**Ph.D., Economics**, University of Alabama</span><span>expected 2027</span></div>
+<div class="award-row"><span>**M.A., Economics**, University of Alabama (Accelerated Master's Program)</span><span>2022</span></div>
+<div class="award-row"><span>**B.S., Economics**, University of Alabama, *summa cum laude*</span><span>2022</span></div>
 
 ## Awards and honors
 
 <div class="award-row"><span>Graduate Council Fellow, Graduate School, University of Alabama</span><span>2022 – present</span></div>
 <div class="award-row"><span>Outstanding Teaching by a Doctoral Student, Culverhouse College of Business</span><span>2026</span></div>
-<div class="award-row"><span><a href="https://youtu.be/N91n9Qqrwp0">Three Minute Thesis (3MT) Competition, University of Alabama</a> — **First Place**</span><span>2025</span></div>
+<div class="award-row"><span><a href="https://youtu.be/N91n9Qqrwp0">Three Minute Thesis (3MT) Competition, University of Alabama</a>, First Place</span><span>2025</span></div>
 <div class="award-row"><span>Harold Elder Teaching Award, Best Economics Graduate Student</span><span>2025</span></div>
 <div class="award-row"><span>Departmental Summer Research Grant</span><span>2025, 2026</span></div>
 <div class="award-row"><span>President, Economics, Finance & Legal Studies Doctoral Students Organization</span><span>2024 – present</span></div>
 <div class="award-row"><span>Department Chair's Award</span><span>2022</span></div>
 <div class="award-row"><span>Helms' Scholar Award</span><span>2022</span></div>
 <div class="award-row"><span>Murray Havens Economics Award</span><span>2022</span></div>
-
-## Contact
-
-Department of Economics, Finance & Legal Studies<br>
-Culverhouse College of Business, University of Alabama<br>
-Tuscaloosa, AL 35487
-
-<!-- NOTE(lily): phone number deliberately left off the public site even though it's on your CV. -->

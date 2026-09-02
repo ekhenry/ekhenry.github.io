@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 pagetitle: "Teaching | Emma Kate Henry"
-description-meta: "Courses taught as instructor of record, teaching evaluations, and teaching awards."
+description-meta: "Courses taught as instructor of record, student evaluations of instruction, and teaching awards."
 ---
 
 I have taught undergraduate econometrics and principles of microeconomics as instructor of
@@ -12,31 +12,41 @@ Business in 2026.
 
 ## Instructor of record
 
-<table class="teach-table">
-<tr>
-  <td>Econometrics (EC 471)</td>
-  <td>Fall 2025</td>
-  <td>4.93<span class="eval-note"> / 5.00</span></td>
-</tr>
-<tr>
-  <td>Principles of Microeconomics (EC 110)</td>
-  <td>Fall 2024</td>
-  <td>5.00<span class="eval-note"> / 5.00</span></td>
-</tr>
-<tr>
-  <td>Principles of Microeconomics (EC 110)</td>
-  <td>Summer 2024</td>
-  <td>4.79<span class="eval-note"> / 5.00</span></td>
-</tr>
-</table>
+Click a course to open its full student evaluations of instruction.
 
-<p style="font-size:0.88rem; color:#6E6E73; margin-top:-0.75rem;">
+::: {.course}
+<details class="abstract">
+<summary>Econometrics (EC 471)</summary>
+<div class="abstract-body">
+<a href="assets/evaluations/EC471-Fall2025-SOI.pdf">Fall 2025 Student Evaluations of Instructor</a>
+</div>
+</details>
+<div class="course-meta"><span>Fall 2025</span><span class="course-score">4.93<span class="eval-note"> / 5.00</span></span></div>
+:::
+
+::: {.course}
+<details class="abstract">
+<summary>Principles of Microeconomics (EC 110)</summary>
+<div class="abstract-body">
+<a href="assets/evaluations/EC110-Fall2024-SOI.pdf">Fall 2024 Student Evaluations of Instructor</a>
+</div>
+</details>
+<div class="course-meta"><span>Fall 2024</span><span class="course-score">5.00<span class="eval-note"> / 5.00</span></span></div>
+:::
+
+::: {.course}
+<details class="abstract">
+<summary>Principles of Microeconomics (EC 110)</summary>
+<div class="abstract-body">
+<a href="assets/evaluations/EC110-Summer2024-SOI.pdf">Summer 2024 Student Evaluations of Instructor</a>
+</div>
+</details>
+<div class="course-meta"><span>Summer 2024</span><span class="course-score">4.79<span class="eval-note"> / 5.00</span></span></div>
+:::
+
+<p style="font-size:0.88rem; color:#64717F; margin-top:1rem;">
 Figures are overall instructor ratings from University of Alabama student evaluations.
 </p>
-
-<!-- TODO(lily): if you have a teaching statement PDF, add it here:
-     <a class="btn-cv" href="assets/teaching-statement.pdf">Teaching statement</a>
-     Also consider linking a sample syllabus — committees like seeing one. -->
 
 ## Graduate teaching assistant
 
@@ -61,12 +71,3 @@ Figures are overall instructor ratings from University of Alabama student evalua
 <li>Principles of Macroeconomics</li>
 <li>Principles of Microeconomics</li>
 </ul>
-
-## Course materials
-
-I build my courses from scratch in LaTeX — lecture notes, problem sets and answer keys, exams,
-and R tutorial scripts that walk students through estimation in code rather than only on paper.
-
-<!-- TODO(lily): consider linking one polished artifact publicly — a sample R tutorial or a
-     problem set. It's concrete evidence of teaching quality that an eval number can't give.
-     Drop the file in assets/ and I'll link it. -->
