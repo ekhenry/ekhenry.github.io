@@ -34,11 +34,10 @@ methods to questions in innovation and firm dynamics.
 
 ## Research interests
 
-**Primary:** Econometric theory: panel data, nonparametric and semiparametric estimation,
-correlated random effects, interactive fixed effects.
+**Primary:** Panel data, nonparametric and semiparametric estimation, correlated random effects,
+interactive fixed effects.
 
-**Secondary:** Applied microeconomics: innovation, R&D and firm productivity; experimental
-economics.
+**Secondary:** Innovation, R&D and firm productivity.
 
 ## Dissertation
 
@@ -51,7 +50,7 @@ nonlinear models, where the usual robustness of the linear case breaks down, and
 revision at *Economics Letters*. The third, my [job market paper](research.qmd#jmp), adds
 interactive fixed effects. [All three are on the research page](research.qmd).
 
-Committee: [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) (chair), [Soroush Ghazi](https://sites.google.com/view/soroush-ghazi), [Robert Hammond](https://sites.google.com/view/bobhammond/), [Alexandra Soberón](https://scholar.google.com/citations?user=9MmoofYAAAAJ&hl=es), and [Emmanuel Tsyawo](https://estsyawo.github.io/).
+Committee: [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) **(chair)**, [Soroush Ghazi](https://sites.google.com/view/soroush-ghazi), [Robert Hammond](https://sites.google.com/view/bobhammond/), [Alexandra Soberón](https://scholar.google.com/citations?user=9MmoofYAAAAJ&hl=es), and [Emmanuel Tsyawo](https://estsyawo.github.io/).
 
 ## Education
 

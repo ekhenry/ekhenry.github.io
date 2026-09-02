@@ -57,7 +57,22 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
   background: $page-bg !important;
 }
 .navbar .navbar-container { position: relative; justify-content: center; }
-.navbar .navbar-brand-container { display: none; }   // name lives on the page, not the bar
+.navbar .navbar-brand-container {
+  position: absolute;
+  left: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+.navbar .navbar-brand { padding: 0; }
+.navbar .navbar-title {
+  font-family: $headings-font-family;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: $ink;
+}
+.navbar .navbar-brand:hover .navbar-title { color: $blue-mid; }
 .navbar .navbar-collapse { flex-grow: 0; justify-content: center; }
 .navbar .navbar-nav {
   flex-direction: row;
@@ -94,6 +109,8 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
   .navbar .navbar-nav { flex-wrap: wrap; justify-content: center; }
   .navbar .nav-link { font-size: 0.75rem; padding: 0.25rem 0.5rem !important; }
   .navbar #quarto-search, .navbar .quarto-navbar-tools { position: static; transform: none; }
+  .navbar .navbar-brand-container { position: static; transform: none; }
+  .navbar .navbar-title { font-size: 0.95rem; }
 }
 
 // ---- The color block ----------------------------------------------------
