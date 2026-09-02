@@ -158,7 +158,7 @@ h3 { font-size: 1.05rem; margin-top: 1.75rem; }
   align-items: start;
   margin: 0 0 1rem;
 }
-.hero img {
+.hero-side img {
   width: 340px;
   height: 425px;
   object-fit: cover;
@@ -222,13 +222,20 @@ h3 { font-size: 1.05rem; margin-top: 1.75rem; }
 .contact-value a.no-arrow::after { content: ""; }
 
 // ---- Job-market callout -------------------------------------------------
+.hero-side { display: flex; flex-direction: column; align-items: center; }
+
 .jm-banner {
+  display: inline-block;
   background: #fff;
   border-left: 3px solid $blue-deep;
-  padding: 0.95rem 1.2rem;
-  margin: 2rem 0 0.5rem;
-  font-size: 0.97rem;
+  padding: 0.7rem 1rem;
+  margin: 1.35rem 0 0;
+  font-size: 0.93rem;
+  line-height: 1.45;
+  text-align: center;
+  max-width: 340px;
 }
+.jm-banner p { margin: 0; }
 .jm-banner strong { color: $blue-deep; }
 
 // ---- Paper entries ------------------------------------------------------

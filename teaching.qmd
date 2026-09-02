@@ -5,14 +5,12 @@ description-meta: "Courses taught as instructor of record, student evaluations o
 ---
 
 I have taught undergraduate econometrics and principles of microeconomics as instructor of
-record, and have supported Ph.D., M.A., and undergraduate courses as a teaching assistant since
-2022. I received the **Harold Elder Teaching Award** for best economics graduate student in
+record and have supported Ph.D., M.A., and undergraduate courses as a graduate teaching
+assistant since 2022. I received the **Harold Elder Teaching Award** for best economics graduate student in
 2025, and **Outstanding Teaching by a Doctoral Student** from the Culverhouse College of
 Business in 2026.
 
 ## Instructor of record
-
-Click a course to open its full student evaluations of instruction.
 
 ::: {.course}
 <details class="abstract">

@@ -23,11 +23,13 @@ methods to questions in innovation and firm dynamics.
 :::
 :::
 
+::: {.hero-side}
 ![](assets/headshot.jpg){fig-alt="Emma Kate Henry"}
-:::
 
 ::: {.jm-banner}
 **I am on the 2026–27 job market. See my [job market paper](research.qmd#jmp).**
+:::
+:::
 :::
 
 ## Research interests

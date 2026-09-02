@@ -1,42 +1,53 @@
 ---
 title: "Personal"
 pagetitle: "Personal | Emma Kate Henry"
-description-meta: "A little outside the research."
+description-meta: "Travels, interests, and Alabama traditions."
 ---
 
-Outside of research and teaching, most of what follows is football, travel, and the
-department's own small traditions.
-
-<!-- TODO(lily): rewrite the sentence above in your own voice whenever you like. This page
-     reads best when it sounds like you. -->
+Beyond research and teaching, this page highlights some of my travels, interests, and favorite
+Alabama traditions.
 
 ::: {.photo-grid}
 <figure>
-  <img src="assets/photos/ec471-lecture.jpg" alt="Teaching EC 471">
-  <figcaption>EC 471 lecture</figcaption>
+  <img src="assets/photos/naval-academy.jpg" alt="United States Naval Academy">
+  <figcaption>United States Naval Academy</figcaption>
 </figure>
 <figure>
   <img src="assets/photos/bryant-denny.jpg" alt="Saban Field at Bryant-Denny Stadium">
   <figcaption>Saban Field at Bryant-Denny Stadium</figcaption>
 </figure>
 <figure>
-  <img src="assets/photos/naval-academy.jpg" alt="United States Naval Academy">
-  <figcaption>United States Naval Academy</figcaption>
+  <img src="assets/photos/tailgate-friends.jpg" alt="Game day on the Quad">
+  <figcaption>Game day on the Quad</figcaption>
 </figure>
 <figure>
-  <img src="assets/photos/tailgate.jpg" alt="EFLS Department tailgate">
-  <figcaption>EFLS department tailgate</figcaption>
+  <img src="assets/photos/tailgate-dogs.jpg" alt="Department tailgate">
+  <figcaption>Department tailgate</figcaption>
 </figure>
 <figure>
-  <img src="assets/photos/alcatraz.jpg" alt="Alcatraz Island">
+  <img src="assets/photos/night-game.jpg" alt="Night game at Bryant-Denny Stadium">
+  <figcaption>Bryant-Denny under the lights</figcaption>
+</figure>
+<figure>
+  <img src="assets/photos/dogs-yard.jpg" alt="Two dogs playing in the yard">
+  <figcaption>An afternoon in the yard</figcaption>
+</figure>
+<figure>
+  <img src="assets/photos/sunset-dogs.jpg" alt="Sunset with the dogs">
+  <figcaption>Sunset at home</figcaption>
+</figure>
+<figure>
+  <img src="assets/photos/alcatraz.jpg" alt="Alcatraz Island, San Francisco">
   <figcaption>Alcatraz Island</figcaption>
 </figure>
 <figure>
-  <img src="assets/photos/first-year-finals.jpg" alt="First-year PhD final exams">
-  <figcaption>First-year Ph.D. final exams</figcaption>
+  <img src="assets/photos/cohort.jpg" alt="Economics doctoral students">
+  <figcaption>Economics doctoral students</figcaption>
 </figure>
 :::
 
-<!-- TODO(lily): these are the six photos from your current "Etc." page, with the same
-     captions. Export them from Google Sites and drop them in assets/photos/ using the
-     filenames above, or send them to me and I'll place and compress them. -->
+<!-- CAPTIONS(lily): all nine above are drafts based only on what is visible in each photo.
+     Send me replacements by number and I'll swap them in:
+       1 naval-academy   2 bryant-denny   3 tailgate-friends
+       4 tailgate-dogs   5 night-game     6 dogs-yard
+       7 sunset-dogs     8 alcatraz       9 cohort            -->
