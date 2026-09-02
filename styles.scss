@@ -1,205 +1,334 @@
 /*-- scss:defaults --*/
 
 // ---- Palette ------------------------------------------------------------
-// Restrained academic palette. Crimson is an accent only, never a background.
-$crimson:        #8A1538;
-$crimson-dark:   #6B1029;
-$ink:            #1A1A1A;
-$body-color:     #2B2B2B;
-$muted:          #6E6E73;
-$rule:           #E3E1DE;
-$paper:          #FFFFFF;
-$paper-warm:     #FAF9F7;
+// Blue-family academic palette. A tinted panel carries the content; the page
+// behind it stays white. Accent blue is used for links, labels and rules.
+$blue-deep:      #1B3A5C;   // headings, band, primary accent
+$blue-mid:       #2C5F8A;   // links
+$blue-soft:      #4A7BA7;   // hover / secondary
+$panel:          #E8EEF4;   // the color block behind content
+$panel-edge:     #D3DFE9;   // hairline inside the panel
+$page-bg:        #FFFFFF;
+$ink:            #16202B;
+$body-color:     #2A343F;
+$muted:          #64717F;
+$rule:           #C9D6E1;
 
-$primary:        $crimson;
-$body-bg:        $paper;
-$link-color:     $crimson;
-$link-hover-color: $crimson-dark;
+$primary:        $blue-deep;
+$body-bg:        $page-bg;
+$link-color:     $blue-mid;
+$link-hover-color: $blue-deep;
 
 // ---- Type ---------------------------------------------------------------
 $font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont,
   "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
 
-$font-size-base:   1.0625rem;   // 17px
-$line-height-base: 1.65;
+$font-size-base:   1.0625rem;
+$line-height-base: 1.62;
 $headings-font-weight: 600;
 
-$navbar-bg:   $paper;
+$navbar-bg:   $page-bg;
 $navbar-fg:   $ink;
-$footer-bg:   $paper;
+$footer-bg:   $page-bg;
 
 /*-- scss:rules --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 // ---- Global -------------------------------------------------------------
 body {
   color: $body-color;
+  background: $page-bg;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, h4 {
-  color: $ink;
-  letter-spacing: -0.011em;
-}
-
-h1 { font-size: 2.1rem; line-height: 1.2; }
-h2 {
-  font-size: 1.35rem;
-  margin-top: 3rem;
-  margin-bottom: 1.1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid $rule;
-}
-h3 { font-size: 1.1rem; margin-top: 2rem; }
+h1, h2, h3, h4 { color: $ink; letter-spacing: -0.008em; }
 
 a { text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 2px; }
 
-// ---- Navbar -------------------------------------------------------------
+// ---- Navbar: centered, small-caps ---------------------------------------
 .navbar {
   border-bottom: 1px solid $rule;
-  padding-top: 0.85rem;
-  padding-bottom: 0.85rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: $page-bg !important;
 }
-.navbar .navbar-brand {
-  font-family: $headings-font-family;
-  font-weight: 600;
-  font-size: 1.15rem;
-  letter-spacing: -0.01em;
+.navbar .navbar-container { position: relative; justify-content: center; }
+.navbar .navbar-brand-container { display: none; }   // name lives on the page, not the bar
+.navbar .navbar-collapse { flex-grow: 0; justify-content: center; }
+.navbar .navbar-nav {
+  flex-direction: row;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 .navbar .nav-link {
-  font-size: 0.95rem;
-  padding-left: 0.9rem !important;
-  padding-right: 0.9rem !important;
-}
-.navbar .nav-link.active {
-  color: $crimson !important;
+  font-family: $font-family-sans-serif;
+  font-size: 0.82rem;
   font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: $ink !important;
+  padding: 0.25rem 0.9rem !important;
+}
+.navbar .nav-link:hover { color: $blue-mid !important; text-decoration: none; }
+.navbar .nav-link.active {
+  color: $blue-deep !important;
+  border-bottom: 2px solid $blue-deep;
+}
+// push the utility icons out of the centered group
+.navbar #quarto-search,
+.navbar .quarto-navbar-tools {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navbar .quarto-navbar-tools { right: 1.25rem; }
+.navbar #quarto-search { right: 4rem; }
+
+@media (max-width: 860px) {
+  .navbar .navbar-container { justify-content: flex-start; }
+  .navbar .navbar-collapse { flex-grow: 1; }
+  .navbar .navbar-nav { flex-wrap: wrap; justify-content: center; }
+  .navbar .nav-link { font-size: 0.75rem; padding: 0.25rem 0.5rem !important; }
+  .navbar #quarto-search, .navbar .quarto-navbar-tools { position: static; transform: none; }
 }
 
-// ---- Title block --------------------------------------------------------
-#title-block-header { margin-bottom: 0.5rem; }
-.quarto-title-banner { display: none; }
+// ---- The color block ----------------------------------------------------
+// Every page's content sits inside a tinted panel, centered on white.
+#quarto-document-content,
+main.content {
+  background: $panel;
+  padding: 3.25rem 3.5rem 3.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  border-radius: 2px;
+}
+
+@media (max-width: 640px) {
+  #quarto-document-content,
+  main.content {
+    padding: 2rem 1.35rem 2.5rem;
+    margin-top: 1.25rem;
+  }
+}
+
+// Accent band beneath the panel — the site's one bold stroke of color.
+footer.footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 46px;
+  background: $blue-deep;
+  margin: 2.5rem 0 1.25rem;
+}
+
+// ---- Headings inside the panel ------------------------------------------
+h1.title {
+  font-family: $headings-font-family;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: $blue-deep;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid $panel-edge;
+  margin-bottom: 1.75rem;
+}
+
+h2 {
+  font-family: $headings-font-family;
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: $blue-deep;
+  margin-top: 2.75rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $panel-edge;
+}
+h3 { font-size: 1.05rem; margin-top: 1.75rem; }
 
 // ---- Hero (About page) --------------------------------------------------
 .hero {
   display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 2.75rem;
+  grid-template-columns: 1fr 340px;
+  gap: 3rem;
   align-items: start;
-  margin: 0.5rem 0 2.5rem;
+  margin: 0 0 1rem;
 }
 .hero img {
-  width: 200px;
-  height: 200px;
+  width: 340px;
+  height: 425px;
   object-fit: cover;
-  border-radius: 3px;
-  filter: grayscale(12%);
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(22, 32, 43, 0.13);
 }
 .hero-name {
   font-family: $headings-font-family;
-  font-size: 2.3rem;
+  font-size: 2.85rem;
   font-weight: 600;
-  line-height: 1.15;
-  margin: 0 0 0.35rem;
+  line-height: 1.1;
+  margin: 0 0 0.5rem;
   color: $ink;
+  letter-spacing: -0.015em;
 }
 .hero-role {
+  font-family: $headings-font-family;
+  font-style: italic;
   font-size: 1.05rem;
-  color: $muted;
-  margin: 0 0 1.25rem;
+  line-height: 1.45;
+  color: $blue-mid;
+  margin: 0 0 1.4rem;
 }
-.hero-role a { color: $muted; border-bottom: 1px solid $rule; }
 
-@media (max-width: 640px) {
-  .hero {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    text-align: left;
-  }
-  .hero img { width: 150px; height: 150px; }
-  .hero-name { font-size: 1.85rem; }
+@media (max-width: 860px) {
+  .hero { grid-template-columns: 1fr; gap: 1.75rem; }
+  .hero img { width: 100%; max-width: 320px; height: auto; aspect-ratio: 4/5; }
+  .hero-name { font-size: 2.1rem; }
 }
+
+// ---- Contact rows (René-style label / value) ----------------------------
+.contact-list { margin: 1.75rem 0 0; max-width: 430px; }
+.contact-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid $panel-edge;
+  font-size: 0.95rem;
+}
+.contact-row:first-child { border-top: 1px solid $panel-edge; }
+.contact-label {
+  font-family: $font-family-sans-serif;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: $muted;
+  white-space: nowrap;
+}
+.contact-value { text-align: right; }
+.contact-value a { color: $ink; }
+.contact-value a:hover { color: $blue-mid; }
+.contact-value a::after {
+  content: " \2197";
+  font-size: 0.82em;
+  color: $blue-soft;
+}
+.contact-value a.no-arrow::after { content: ""; }
 
 // ---- Job-market callout -------------------------------------------------
 .jm-banner {
-  background: $paper-warm;
-  border-left: 3px solid $crimson;
-  padding: 0.9rem 1.15rem;
-  margin: 1.75rem 0;
+  background: #fff;
+  border-left: 3px solid $blue-deep;
+  padding: 0.95rem 1.2rem;
+  margin: 2rem 0 0.5rem;
   font-size: 0.97rem;
 }
-.jm-banner strong { color: $crimson; }
+.jm-banner strong { color: $blue-deep; }
 
 // ---- Paper entries ------------------------------------------------------
-.paper {
-  padding: 1.5rem 0;
-  border-bottom: 1px solid $rule;
-}
+.paper { padding: 1.5rem 0; border-bottom: 1px solid $panel-edge; }
 .paper:last-child { border-bottom: none; }
 
+.paper-kicker {
+  font-family: $font-family-sans-serif;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: $blue-soft;
+  margin: 0 0 0.35rem;
+}
 .paper-title {
   font-family: $headings-font-family;
-  font-size: 1.13rem;
+  font-size: 1.14rem;
   font-weight: 600;
   line-height: 1.35;
   margin: 0 0 0.3rem;
   color: $ink;
 }
-.paper-authors {
-  font-size: 0.95rem;
-  color: $muted;
-  margin: 0 0 0.6rem;
-}
+.paper-authors { font-size: 0.95rem; color: $muted; margin: 0 0 0.45rem; }
+.paper-authors a { color: $blue-mid; }
 .paper-venue {
   font-size: 0.92rem;
   color: $muted;
   font-style: italic;
   margin: 0 0 0.75rem;
 }
-.paper-abstract {
-  font-size: 0.97rem;
-  margin: 0.5rem 0 0.85rem;
-}
 
-.tag {
-  display: inline-block;
+// ---- Collapsible abstract ----------------------------------------------
+details.abstract {
+  margin: 0.6rem 0 0.5rem;
+  border-top: 1px solid $panel-edge;
+}
+details.abstract > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   font-family: $font-family-sans-serif;
   font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.13em;
   text-transform: uppercase;
-  padding: 0.2rem 0.55rem;
-  border-radius: 2px;
-  margin-bottom: 0.55rem;
-  vertical-align: 2px;
+  color: $blue-mid;
+  padding: 0.6rem 0 0.1rem;
+  user-select: none;
 }
-.tag-jmp     { background: $crimson; color: #fff; }
-.tag-pub     { background: #EDEAE4; color: #4A4A4A; }
-.tag-rr      { background: #EDEAE4; color: #4A4A4A; }
-.tag-wp      { background: #F2F1EF; color: $muted; }
+details.abstract > summary::-webkit-details-marker { display: none; }
+details.abstract > summary::before {
+  content: "+";
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 400;
+  color: $blue-soft;
+}
+details.abstract[open] > summary::before { content: "\2013"; }
+details.abstract > summary:hover { color: $blue-deep; }
+.abstract-body {
+  font-size: 0.96rem;
+  line-height: 1.6;
+  padding: 0.5rem 0 0.85rem;
+  max-width: 62ch;
+}
 
-.paper-links { margin-bottom: 0; }
+.paper-links { margin: 0.35rem 0 0; }
 .paper-links:empty { display: none; }
 .paper-links a {
-  font-size: 0.9rem;
-  margin-right: 1.1rem;
-  border-bottom: 1px solid rgba(138, 21, 56, 0.25);
+  font-size: 0.88rem;
+  margin-right: 1.15rem;
+  color: $blue-mid;
+  border-bottom: 1px solid rgba(44, 95, 138, 0.3);
 }
+
+// ---- Two-column rows (education, awards, presentations) -----------------
+.award-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.25rem;
+  padding: 0.58rem 0;
+  border-bottom: 1px solid $panel-edge;
+  font-size: 0.96rem;
+  align-items: baseline;
+}
+.award-row span:last-child { color: $muted; white-space: nowrap; }
 
 // ---- Teaching tables ----------------------------------------------------
 .teach-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.97rem;
+  font-size: 0.96rem;
   margin: 0.75rem 0 1.5rem;
 }
 .teach-table td {
-  padding: 0.55rem 0;
-  border-bottom: 1px solid $rule;
+  padding: 0.58rem 0;
+  border-bottom: 1px solid $panel-edge;
   vertical-align: top;
 }
 .teach-table td:first-child { width: 55%; }
@@ -208,17 +337,13 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
   text-align: right;
   font-variant-numeric: tabular-nums;
   font-weight: 600;
-  color: $ink;
+  color: $blue-deep;
   white-space: nowrap;
 }
-.teach-table .eval-note {
-  font-weight: 400;
-  color: $muted;
-  font-size: 0.85rem;
-}
+.teach-table .eval-note { font-weight: 400; color: $muted; font-size: 0.85rem; }
 
 .role-list {
-  font-size: 0.97rem;
+  font-size: 0.96rem;
   columns: 2;
   column-gap: 2.5rem;
   padding-left: 1.1rem;
@@ -226,44 +351,36 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 .role-list li { margin-bottom: 0.3rem; break-inside: avoid; }
 @media (max-width: 640px) { .role-list { columns: 1; } }
 
-// ---- Awards / simple definition rows -----------------------------------
-.award-row {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 1rem;
-  padding: 0.55rem 0;
-  border-bottom: 1px solid $rule;
-  font-size: 0.97rem;
-}
-.award-row span:last-child { color: $muted; white-space: nowrap; }
-
-// ---- CV embed -----------------------------------------------------------
+// ---- CV -----------------------------------------------------------------
 .cv-frame {
   width: 100%;
   height: 1000px;
   border: 1px solid $rule;
-  border-radius: 3px;
+  background: #fff;
   margin-top: 1.25rem;
 }
 @media (max-width: 640px) { .cv-frame { height: 550px; } }
 
 .btn-cv {
   display: inline-block;
-  background: $crimson;
+  background: $blue-deep;
   color: #fff !important;
-  font-size: 0.93rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 0.55rem 1.15rem;
-  border-radius: 3px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 0.7rem 1.4rem;
+  border-radius: 2px;
   text-decoration: none !important;
 }
-.btn-cv:hover { background: $crimson-dark; }
+.btn-cv:hover { background: $blue-mid; }
 
 // ---- Photo grid ---------------------------------------------------------
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1.25rem;
+  gap: 1.35rem;
   margin-top: 1.5rem;
 }
 .photo-grid figure { margin: 0; }
@@ -271,25 +388,27 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: 3px;
+  background: #fff;
+  padding: 7px;
+  box-shadow: 0 1px 3px rgba(22, 32, 43, 0.12);
 }
 .photo-grid figcaption {
-  font-size: 0.86rem;
+  font-size: 0.85rem;
   color: $muted;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
 }
 
 // ---- Footer -------------------------------------------------------------
 .nav-footer {
-  border-top: 1px solid $rule;
-  font-size: 0.86rem;
+  font-size: 0.85rem;
   color: $muted;
-  margin-top: 4rem;
-  padding-top: 1.25rem;
+  margin-top: 3rem;
+  padding-top: 0;
+  border-top: none;
 }
 .nav-footer a { color: $muted; }
 
-// ---- Print --------------------------------------------------------------
 @media print {
   .navbar, .nav-footer { display: none; }
+  #quarto-document-content, main.content { background: #fff; padding: 0; }
 }

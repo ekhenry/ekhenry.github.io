@@ -5,23 +5,30 @@ description-meta: "Ph.D. candidate in Economics at the University of Alabama wor
 ---
 
 ::: {.hero}
-![](assets/headshot.jpg){fig-alt="Emma Kate Henry"}
-
 ::: {}
 <p class="hero-name">Emma Kate Henry</p>
-<p class="hero-role">Ph.D. Candidate in Economics<br>Culverhouse College of Business, University of Alabama</p>
+<p class="hero-role">Ph.D. Candidate in Economics,<br>The University of Alabama</p>
 
-I develop **nonparametric and semiparametric methods for panel data**, with a focus on
-correlated random effects models that let researchers work with longitudinal data without
-committing to a functional form for how unobserved heterogeneity relates to the covariates.
-I apply these methods to questions in **innovation and firm dynamics**.
+I develop nonparametric and semiparametric methods for panel data, with a focus on correlated
+random effects models that let researchers work with longitudinal data without committing to a
+functional form for how unobserved heterogeneity relates to the covariates. I apply these
+methods to questions in innovation and firm dynamics.
+
+::: {.contact-list}
+<div class="contact-row"><span class="contact-label">Email</span><span class="contact-value"><a class="no-arrow" href="mailto:ekhenry@crimson.ua.edu">ekhenry@crimson.ua.edu</a></span></div>
+<div class="contact-row"><span class="contact-label">Scholar</span><span class="contact-value"><a href="https://scholar.google.com/citations?user=DqA-UzwAAAAJ&hl=en">Google Scholar</a></span></div>
+<div class="contact-row"><span class="contact-label">LinkedIn</span><span class="contact-value"><a href="https://www.linkedin.com/in/emma-kate-henry-626ab6213">linkedin.com/in/emma-kate-henry</a></span></div>
+<div class="contact-row"><span class="contact-label">ORCID</span><span class="contact-value"><a href="https://orcid.org/0009-0001-3462-5717">0009-0001-3462-5717</a></span></div>
+<div class="contact-row"><span class="contact-label">CV</span><span class="contact-value">[Download PDF]({{< var cv_url >}})</span></div>
 :::
+:::
+
+![](assets/headshot.jpg){fig-alt="Emma Kate Henry"}
 :::
 
 ::: {.jm-banner}
 **On the 2026–27 academic job market.** I am available for interviews at the ASSA meetings and
-by video. See my [job market paper](research.qmd#jmp) or
-[download my CV]({{< var cv_url >}}).
+by video. See my [job market paper](research.qmd#jmp).
 :::
 
 ## Research interests
@@ -43,10 +50,9 @@ specification. The second extends correlated random effects to nonlinear panel m
 the usual parametric device with a nonparametric one so that structural parameters stay
 consistent when the relationship between individual effects and covariates is unknown. The
 third — my [job market paper](research.qmd#jmp) — brings semiparametric estimation to panel
-models with **interactive fixed effects**, and applies it to innovation activity.
+models with interactive fixed effects, and applies it to innovation activity.
 
-Committee: Daniel J. Henderson (chair), Soroush Ghazi, Robert Hammond, Alexandra Soberón,
-and Emmanuel Tsyawo.
+Committee: [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) (chair), [Soroush Ghazi](https://sites.google.com/view/soroush-ghazi), [Robert Hammond](https://sites.google.com/view/bobhammond/), [Alexandra Soberón](https://scholar.google.com/citations?user=9MmoofYAAAAJ&hl=es), and [Emmanuel Tsyawo](https://estsyawo.github.io/).
 
 ## Education
 
@@ -58,7 +64,7 @@ and Emmanuel Tsyawo.
 
 <div class="award-row"><span>Graduate Council Fellow, Graduate School, University of Alabama</span><span>2022 – present</span></div>
 <div class="award-row"><span>Outstanding Teaching by a Doctoral Student, Culverhouse College of Business</span><span>2026</span></div>
-<div class="award-row"><span>Three Minute Thesis (3MT) Competition, University of Alabama — **First Place**</span><span>2025</span></div>
+<div class="award-row"><span><a href="https://youtu.be/N91n9Qqrwp0">Three Minute Thesis (3MT) Competition, University of Alabama</a> — **First Place**</span><span>2025</span></div>
 <div class="award-row"><span>Harold Elder Teaching Award, Best Economics Graduate Student</span><span>2025</span></div>
 <div class="award-row"><span>Departmental Summer Research Grant</span><span>2025, 2026</span></div>
 <div class="award-row"><span>President, Economics, Finance & Legal Studies Doctoral Students Organization</span><span>2024 – present</span></div>
@@ -68,14 +74,8 @@ and Emmanuel Tsyawo.
 
 ## Contact
 
-**Email** &nbsp; [ekhenry@crimson.ua.edu](mailto:ekhenry@crimson.ua.edu)
-
 Department of Economics, Finance & Legal Studies<br>
 Culverhouse College of Business, University of Alabama<br>
 Tuscaloosa, AL 35487
 
-<!-- NOTE(lily): I deliberately left your phone number off the site even though it's on
-     your CV. A public web page is a different exposure than a PDF you send to search
-     committees. Add it here if you'd rather have it. -->
-
-<!-- TODO(lily): add your office number/building if you want it listed. -->
+<!-- NOTE(lily): phone number deliberately left off the public site even though it's on your CV. -->

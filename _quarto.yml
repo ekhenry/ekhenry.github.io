@@ -14,6 +14,8 @@ website:
   open-graph: true
   twitter-card: true
 
+  search: false
+
   navbar:
     logo: ""
     title: "Emma Kate Henry"
@@ -28,18 +30,6 @@ website:
         text: CV
       - href: personal.qmd
         text: Personal
-    right:
-      - icon: envelope
-        href: mailto:ekhenry@crimson.ua.edu
-        aria-label: Email
-      # TODO(lily): paste your real LinkedIn URL here, then uncomment.
-      # - icon: linkedin
-      #   href: https://www.linkedin.com/in/YOUR-HANDLE
-      #   aria-label: LinkedIn
-      # TODO(lily): optional — Google Scholar / GitHub, if you want them.
-      # - icon: github
-      #   href: https://github.com/YOUR-HANDLE
-      #   aria-label: GitHub
 
   page-footer:
     left: "&copy; 2026 Emma Kate Henry"
@@ -55,4 +45,4 @@ format:
     smooth-scroll: true
     link-external-newwindow: true
     grid:
-      body-width: 900px
+      body-width: 1080px

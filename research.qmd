@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Research and Work in Progress"
 pagetitle: "Research | Emma Kate Henry"
 description-meta: "Job market paper, publications, and working papers on nonparametric and semiparametric correlated random effects models for panel data."
 ---
@@ -10,12 +10,13 @@ unobserved heterogeneity, and applies them to questions about innovation and fir
 ## Job market paper {#jmp}
 
 ::: {.paper}
-[Job Market Paper]{.tag .tag-jmp}
-
+<p class="paper-kicker">Job Market Paper</p>
 <p class="paper-title">Semiparametric Panel Data Models with Interactive Fixed Effects</p>
 <p class="paper-authors">Emma Kate Henry</p>
 
-<div class="paper-abstract">
+<details class="abstract">
+<summary>Abstract</summary>
+<div class="abstract-body">
 Methods for estimation and inference in semiparametric panel data models with both correlated
 random effects and interactive fixed effects are developed, combining a Mundlak-style projection
 for the time-invariant heterogeneity with a local-linear filter for the time-varying component.
@@ -24,79 +25,101 @@ estimator that requires no iteration, principal components, or knowledge of the 
 factors. Asymptotic properties are established under joint large-<em>N</em>, large-<em>T</em>
 asymptotics and illustrated with an application to innovation activity.
 </div>
+</details>
 
 <p class="paper-venue">Draft available on request — [email me](mailto:ekhenry@crimson.ua.edu?subject=Job%20market%20paper).</p>
 
 <!-- When the paper is ready to circulate: set jmp_public: true in _variables.yml and
-     replace the two lines above with the commented block below.
-
-<p class="paper-links">
-<a href="{{< var jmp_url >}}">PDF</a>
-</p>
+     replace the venue line above with:
+<p class="paper-links"><a href="{{< var jmp_url >}}">PDF</a></p>
 -->
 :::
 
 ## Publications
 
 ::: {.paper}
-[Published]{.tag .tag-pub}
-
+<p class="paper-kicker">Journal of Risk and Uncertainty · 2026</p>
 <p class="paper-title">Contests with Ambiguous Prizes</p>
-<p class="paper-authors">with Cary Deck, Aidan Hathaway, Tigran Melkonyan, and Sam Redinger</p>
-<p class="paper-venue">*Journal of Risk and Uncertainty*, 2026</p>
+<p class="paper-authors">with Cary Deck, Aidan Hathaway, Tigran Melkonyan, and Samuel Redinger</p>
 
-<div class="paper-abstract">
-<!-- TODO(lily): paste the published abstract here (2-4 sentences). -->
+<details class="abstract">
+<summary>Abstract</summary>
+<div class="abstract-body">
+This paper examines behavior in contests where the prize value is ambiguous. We develop a
+theoretical model of bidding in a Tullock contest with an ambiguous prize where contestants
+account for the ambiguity attitude of their rival. Ambiguity affects optimal behavior via two
+countervailing channels — a direct effect arising from contestants' ambiguity about the value of
+the prize and an indirect effect corresponding to the effect of ambiguity on the opponent's
+behavior. Using a controlled laboratory experiment, we elicit individual risk and ambiguity
+attitudes and compare predicted and observed behavior in contests with an ambiguous prize, a
+risky prize and certain prizes. A comparison between contests with ambiguous and risky prizes
+shows that participants invest significantly less under ambiguity. Additionally, we decompose
+the effect of changing from a certain prize to an ambiguous prize into two components — the
+first is the effect of introducing risk and the second is the effect of introducing ambiguity.
+Empirically, we find that both effects are significant, but work in opposite directions.
 </div>
+</details>
 
 <p class="paper-links">
-<!-- TODO(lily): add the DOI link once it's live, e.g.
-<a href="https://doi.org/XXXXX">Journal</a> -->
+<a href="https://doi.org/10.1007/s11166-026-09498-6">Journal article</a>
 </p>
 :::
 
 ::: {.paper}
-[Published]{.tag .tag-pub}
-
+<p class="paper-kicker">Advanced Studies in Theoretical and Applied Econometrics · 2025</p>
 <p class="paper-title">Nonparametric Correlated Random-Effects Models</p>
-<p class="paper-authors">with Daniel J. Henderson and Alexandra Soberón</p>
-<p class="paper-venue">*Advanced Studies in Theoretical and Applied Econometrics*, vol. 57, 289–307, 2025.<br>
-Badi H. Baltagi and László Mátyás (eds.)</p>
+<p class="paper-authors">with [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) and [Alexandra Soberón](https://scholar.google.com/citations?user=9MmoofYAAAAJ&hl=es)</p>
+<p class="paper-venue">In *Seven Decades of Econometrics and Beyond*, vol. 57, 289–307.<br>Badi H. Baltagi and László Mátyás (eds.), Springer.</p>
 
-<div class="paper-abstract">
-<!-- TODO(lily): paste the published abstract here. -->
+<details class="abstract">
+<summary>Abstract</summary>
+<div class="abstract-body">
+This chapter develops methods for estimation and inference in nonparametric panel data models
+with correlated random-effects. Using the Mundlak specification to control for unobserved
+heterogeneity, this nonparametric estimation procedure can identify both the nonparametric
+function and a finite-dimensional parameter associated with (potentially) observed
+time-invariant regressors. We develop the necessary asymptotic theory for our proposed
+estimator. To assess the validity of our method in practice, we propose a consistent
+specification test for whether the model controls for the correlation between the unobserved
+individual effects and the regressors. Monte Carlo simulations support the asymptotic
+developments. We illustrate the practical utility of our approach via an empirical application.
 </div>
+</details>
 
 <p class="paper-links">
-<!-- TODO(lily): add the Springer/DOI link. -->
+<a href="https://doi.org/10.1007/978-3-031-92699-0_10">Chapter</a>
 </p>
 :::
 
 ::: {.paper}
-[Published]{.tag .tag-pub}
-
+<p class="paper-kicker">Journal of Life Care Planning · 2019</p>
 <p class="paper-title">Evaluation of Reasonableness of Fees for Life Care Plan Services in Vaccine Act Cases</p>
-<p class="paper-authors">with Timothy R. Owen</p>
-<p class="paper-venue">*Journal of Life Care Planning*, 17(4), 31–37, 2019</p>
+<p class="paper-authors">with Tanya Rutherford Owen</p>
+<p class="paper-venue">*Journal of Life Care Planning*, 17(4), 31–37.</p>
+
+<p class="paper-links">
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqA-UzwAAAAJ&citation_for_view=DqA-UzwAAAAJ:u5HHmVD_uO8C">Citation</a>
+</p>
 :::
 
 ## Under revision
 
 ::: {.paper}
-[Revise & Resubmit]{.tag .tag-rr}
-
+<p class="paper-kicker">Economics Letters</p>
 <p class="paper-title">Nonlinear Panel Data Models with Robust Correlated Random Effects</p>
-<p class="paper-authors">with Daniel J. Henderson and Andros Kourtellos</p>
-<p class="paper-venue">*Economics Letters*</p>
+<p class="paper-authors">with [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) and [Andros Kourtellos](https://sites.google.com/view/kourtellos)</p>
 
-<div class="paper-abstract">
-<!-- TODO(lily): paste the abstract here. This is your strongest signal after the JMP —
-     worth filling in before you send the site to anyone. -->
+<!-- TODO(lily): paste this abstract when you have it — there's no DOI yet, so I couldn't
+     pull it the way I did the other two. Drop it inside the abstract-body div below and
+     delete this comment. -->
+<!--
+<details class="abstract">
+<summary>Abstract</summary>
+<div class="abstract-body">
+PASTE ABSTRACT HERE
 </div>
-
-<p class="paper-links">
-<!-- TODO(lily): link a Dropbox PDF here the same way as the CV, if you want it public. -->
-</p>
+</details>
+-->
 :::
 
 ## Conference presentations
@@ -104,43 +127,29 @@ Badi H. Baltagi and László Mátyás (eds.)</p>
 <div class="award-row"><span>Computational and Financial Econometrics — Berlin, Germany</span><span>2026</span></div>
 <div class="award-row"><span>Southern Economic Association — Houston, Texas</span><span>2026</span></div>
 <div class="award-row"><span>Midwest Econometrics Group — Cincinnati, Ohio</span><span>2026</span></div>
-<div class="award-row"><span>International Association for Applied Econometrics — Carcavelos, Portugal</span><span>2026</span></div>
+<div class="award-row"><span>International Association for Applied Econometrics — Carçavelos, Portugal</span><span>2026</span></div>
 <div class="award-row"><span>European Workshop on Efficiency and Productivity Analysis — Munich, Germany</span><span>2026</span></div>
 <div class="award-row"><span>Conference of Southern Graduate Schools, 3MT Competition — Baton Rouge, Louisiana</span><span>2026</span></div>
 
-## Research experience
-
-::: {.paper}
-<p class="paper-title">Faculty Research Scholar — University of Alabama</p>
-<p class="paper-venue">2022 – 2023</p>
-<div class="paper-abstract">
-Built data analysis methods for Google advertising cost data at both aggregate and segmented
-levels, and contributed to machine learning algorithms using high-frequency, GPS-enabled
-imaging to identify urban blight.
-</div>
-:::
-
-::: {.paper}
-<p class="paper-title">Research Assistant — Owen Vocational Rehabilitation Services</p>
-<p class="paper-venue">2018 – 2022</p>
-<div class="paper-abstract">
-Conducted healthcare cost analysis forecasting lifetime care expenses for individuals with
-catastrophic injuries in litigation, and assisted in preparing expert witness testimony.
-</div>
-:::
-
-::: {.paper}
-<p class="paper-title">Research Assistant — University of St Andrews</p>
-<p class="paper-venue">2020</p>
-<div class="paper-abstract">
-Developed agent-based models of economic policy coordination, examining fiscal, monetary,
-macro-prudential, and trade policy effects, with a literature review comparing game-theoretic
-and agent-based approaches to policy cooperation.
-</div>
-:::
-
 ## References
 
-<div class="award-row"><span>**Daniel J. Henderson** (chair) — Robert and Mary Cobb Endowed Professor, University of Alabama</span><span>[djhenderson1@ua.edu](mailto:djhenderson1@ua.edu)</span></div>
-<div class="award-row"><span>**Robert Hammond** — Rick and Elaine Horsley Faculty Fellow, University of Alabama</span><span>[rghammond@ua.edu](mailto:rghammond@ua.edu)</span></div>
-<div class="award-row"><span>**Andros Kourtellos** — Department Chair, University of Cyprus</span><span>[andros@ucy.ac.cy](mailto:andros@ucy.ac.cy)</span></div>
+::: {.paper}
+<p class="paper-title">[Daniel J. Henderson](https://sites.ua.edu/dhenderson/) — Chair</p>
+<p class="paper-venue">Robert and Mary Cobb Endowed Professor; Professor of Economics<br>
+Department of Economics, Finance & Legal Studies, University of Alabama</p>
+<p class="paper-links"><a href="mailto:djhenderson1@ua.edu">djhenderson1@ua.edu</a></p>
+:::
+
+::: {.paper}
+<p class="paper-title">[Robert Hammond](https://sites.google.com/view/bobhammond/)</p>
+<p class="paper-venue">Rick and Elaine Horsley Faculty Fellow; Professor of Economics<br>
+Department of Economics, Finance & Legal Studies, University of Alabama</p>
+<p class="paper-links"><a href="mailto:rghammond@ua.edu">rghammond@ua.edu</a></p>
+:::
+
+::: {.paper}
+<p class="paper-title">[Andros Kourtellos](https://sites.google.com/view/kourtellos)</p>
+<p class="paper-venue">Department Chair; Professor of Economics<br>
+Department of Economics and Management, University of Cyprus</p>
+<p class="paper-links"><a href="mailto:andros@ucy.ac.cy">andros@ucy.ac.cy</a></p>
+:::
