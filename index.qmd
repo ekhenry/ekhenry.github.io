@@ -43,14 +43,12 @@ economics.
 
 *Nonparametric and Semiparametric Correlated Random Effects Models*
 
-My dissertation has three chapters, each relaxing a functional-form assumption that standard
-panel estimators impose on unobserved heterogeneity. The first develops estimation and
-inference for nonparametric panel models under a Mundlak-type correlated random effects
-specification. The second extends correlated random effects to nonlinear panel models, replacing
-the usual parametric device with a nonparametric one so that structural parameters stay
-consistent when the relationship between individual effects and covariates is unknown. The
-third — my [job market paper](research.qmd#jmp) — brings semiparametric estimation to panel
-models with interactive fixed effects, and applies it to innovation activity.
+Three chapters, each relaxing a functional-form assumption that standard panel estimators impose
+on unobserved heterogeneity. The first develops nonparametric correlated random effects and is
+published in *Seven Decades of Econometrics and Beyond*. The second carries the approach into
+nonlinear models, where the usual robustness of the linear case breaks down, and is under
+revision at *Economics Letters*. The third — my [job market paper](research.qmd#jmp) — adds
+interactive fixed effects. [All three are on the research page](research.qmd).
 
 Committee: [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) (chair), [Soroush Ghazi](https://sites.google.com/view/soroush-ghazi), [Robert Hammond](https://sites.google.com/view/bobhammond/), [Alexandra Soberón](https://scholar.google.com/citations?user=9MmoofYAAAAJ&hl=es), and [Emmanuel Tsyawo](https://estsyawo.github.io/).
 

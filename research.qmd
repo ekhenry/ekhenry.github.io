@@ -4,9 +4,6 @@ pagetitle: "Research | Emma Kate Henry"
 description-meta: "Job market paper, publications, and working papers on nonparametric and semiparametric correlated random effects models for panel data."
 ---
 
-My work develops estimators for panel data models that relax functional-form assumptions on
-unobserved heterogeneity, and applies them to questions about innovation and firm productivity.
-
 ## Job market paper {#jmp}
 
 ::: {.paper}
@@ -109,17 +106,22 @@ developments. We illustrate the practical utility of our approach via an empiric
 <p class="paper-title">Nonlinear Panel Data Models with Robust Correlated Random Effects</p>
 <p class="paper-authors">with [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) and [Andros Kourtellos](https://sites.google.com/view/kourtellos)</p>
 
-<!-- TODO(lily): paste this abstract when you have it — there's no DOI yet, so I couldn't
-     pull it the way I did the other two. Drop it inside the abstract-body div below and
-     delete this comment. -->
-<!--
 <details class="abstract">
 <summary>Abstract</summary>
 <div class="abstract-body">
-PASTE ABSTRACT HERE
+While linear panel data models with correlated random effects maintain consistency even under
+misspecification of the individual effect, this robustness property fails in nonlinear settings.
+We address this limitation by modeling the individual effect as an unknown smooth function of
+time-invariant covariates, allowing an unrestricted relationship between unobserved
+heterogeneity and the regressors. Estimation proceeds by profile least squares, yielding
+&radic;<em>N</em>-consistent estimates of the structural parameters, which are identified from
+within-individual variation, while treating the nonparametric component as a nuisance function.
+Simulations confirm that the proposed estimator remains consistent when existing methods become
+biased and inconsistent. An application to the public capital productivity puzzle shows that
+flexible modeling of the production function and individual effects leads to positive and
+significant returns to public capital.
 </div>
 </details>
--->
 :::
 
 ## Conference presentations
