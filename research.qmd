@@ -40,7 +40,7 @@ asymptotics and illustrated with an application to innovation activity.
 ::: {.paper}
 <p class="paper-kicker">Journal of Risk and Uncertainty · 2026</p>
 <p class="paper-title">Contests with Ambiguous Prizes</p>
-<p class="paper-authors">with Cary Deck, Aidan Hathaway, Tigran Melkonyan, and Samuel Redinger</p>
+<p class="paper-authors">with [Cary Deck](https://carydeck.weebly.com/), [Aidan Hathaway](https://sites.google.com/view/aidanhathaway), [Tigran Melkonyan](https://tamelkonyan-cpu.github.io/), and [Samuel Redinger](https://www.samredinger.com/)</p>
 
 <details class="abstract">
 <summary>Abstract</summary>
