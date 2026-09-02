@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------------------
+# EDIT THIS FILE, NOT THE PAGES.
+#
+# These two links appear everywhere on the site (About page, navbar callout,
+# Research page, CV page). Change them here once and every page updates.
+#
+# Per your advisor: host both on Dropbox so you can replace the file and keep
+# the same URL. To get a stable link:
+#   1. In Dropbox, right-click the file > Copy link
+#   2. You'll get something like https://www.dropbox.com/scl/fi/.../file.pdf?rlkey=...&dl=0
+#   3. Change the trailing  dl=0  to  dl=1  so it downloads instead of opening
+#      Dropbox's preview page. Paste that here.
+#   4. To update: replace the file in Dropbox *in place* (same filename,
+#      overwrite). The link keeps working and serves the new version.
+# ---------------------------------------------------------------------------
+
+# Your CV on Dropbox.
+cv_url: "https://www.dropbox.com/REPLACE-WITH-YOUR-CV-LINK?dl=1"
+
+# Your job market paper on Dropbox.
+# Leave jmp_public as false until the paper is ready to circulate — the site
+# will show "available on request" instead of a download link. Flip it to true
+# and the link appears everywhere at once.
+jmp_url: "https://www.dropbox.com/REPLACE-WITH-YOUR-JMP-LINK?dl=1"
+jmp_public: false
+
+# Optional profile links. Leave blank to hide.
+linkedin: ""
+scholar: ""

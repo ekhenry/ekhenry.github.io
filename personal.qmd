@@ -1,0 +1,44 @@
+---
+title: "Personal"
+pagetitle: "Personal | Emma Kate Henry"
+description-meta: "A little outside the research."
+---
+
+I grew up in Fayetteville, Arkansas, and have been in Tuscaloosa since starting my Ph.D.
+Outside of research and teaching, most of what follows is football, travel, and the
+department's own small traditions.
+
+<!-- TODO(lily): rewrite the paragraph above in your own voice — it's a placeholder built
+     only from things you've told me, and this page reads best when it sounds like you.
+     Two or three sentences is plenty. -->
+
+::: {.photo-grid}
+<figure>
+  <img src="assets/photos/ec471-lecture.jpg" alt="Teaching EC 471">
+  <figcaption>EC 471 lecture</figcaption>
+</figure>
+<figure>
+  <img src="assets/photos/bryant-denny.jpg" alt="Saban Field at Bryant-Denny Stadium">
+  <figcaption>Saban Field at Bryant-Denny Stadium</figcaption>
+</figure>
+<figure>
+  <img src="assets/photos/naval-academy.jpg" alt="United States Naval Academy">
+  <figcaption>United States Naval Academy</figcaption>
+</figure>
+<figure>
+  <img src="assets/photos/tailgate.jpg" alt="EFLS Department tailgate">
+  <figcaption>EFLS department tailgate</figcaption>
+</figure>
+<figure>
+  <img src="assets/photos/alcatraz.jpg" alt="Alcatraz Island">
+  <figcaption>Alcatraz Island</figcaption>
+</figure>
+<figure>
+  <img src="assets/photos/first-year-finals.jpg" alt="First-year PhD final exams">
+  <figcaption>First-year Ph.D. final exams</figcaption>
+</figure>
+:::
+
+<!-- TODO(lily): these are the six photos from your current "Etc." page, with the same
+     captions. Export them from Google Sites and drop them in assets/photos/ using the
+     filenames above — or send them to me and I'll place and compress them. -->

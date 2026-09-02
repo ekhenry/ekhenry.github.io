@@ -1,0 +1,295 @@
+/*-- scss:defaults --*/
+
+// ---- Palette ------------------------------------------------------------
+// Restrained academic palette. Crimson is an accent only, never a background.
+$crimson:        #8A1538;
+$crimson-dark:   #6B1029;
+$ink:            #1A1A1A;
+$body-color:     #2B2B2B;
+$muted:          #6E6E73;
+$rule:           #E3E1DE;
+$paper:          #FFFFFF;
+$paper-warm:     #FAF9F7;
+
+$primary:        $crimson;
+$body-bg:        $paper;
+$link-color:     $crimson;
+$link-hover-color: $crimson-dark;
+
+// ---- Type ---------------------------------------------------------------
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+$font-size-base:   1.0625rem;   // 17px
+$line-height-base: 1.65;
+$headings-font-weight: 600;
+
+$navbar-bg:   $paper;
+$navbar-fg:   $ink;
+$footer-bg:   $paper;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap');
+
+// ---- Global -------------------------------------------------------------
+body {
+  color: $body-color;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  color: $ink;
+  letter-spacing: -0.011em;
+}
+
+h1 { font-size: 2.1rem; line-height: 1.2; }
+h2 {
+  font-size: 1.35rem;
+  margin-top: 3rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $rule;
+}
+h3 { font-size: 1.1rem; margin-top: 2rem; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 2px; }
+
+// ---- Navbar -------------------------------------------------------------
+.navbar {
+  border-bottom: 1px solid $rule;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+.navbar .navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+.navbar .nav-link {
+  font-size: 0.95rem;
+  padding-left: 0.9rem !important;
+  padding-right: 0.9rem !important;
+}
+.navbar .nav-link.active {
+  color: $crimson !important;
+  font-weight: 600;
+}
+
+// ---- Title block --------------------------------------------------------
+#title-block-header { margin-bottom: 0.5rem; }
+.quarto-title-banner { display: none; }
+
+// ---- Hero (About page) --------------------------------------------------
+.hero {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2.75rem;
+  align-items: start;
+  margin: 0.5rem 0 2.5rem;
+}
+.hero img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+  filter: grayscale(12%);
+}
+.hero-name {
+  font-family: $headings-font-family;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.35rem;
+  color: $ink;
+}
+.hero-role {
+  font-size: 1.05rem;
+  color: $muted;
+  margin: 0 0 1.25rem;
+}
+.hero-role a { color: $muted; border-bottom: 1px solid $rule; }
+
+@media (max-width: 640px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: left;
+  }
+  .hero img { width: 150px; height: 150px; }
+  .hero-name { font-size: 1.85rem; }
+}
+
+// ---- Job-market callout -------------------------------------------------
+.jm-banner {
+  background: $paper-warm;
+  border-left: 3px solid $crimson;
+  padding: 0.9rem 1.15rem;
+  margin: 1.75rem 0;
+  font-size: 0.97rem;
+}
+.jm-banner strong { color: $crimson; }
+
+// ---- Paper entries ------------------------------------------------------
+.paper {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $rule;
+}
+.paper:last-child { border-bottom: none; }
+
+.paper-title {
+  font-family: $headings-font-family;
+  font-size: 1.13rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 0.3rem;
+  color: $ink;
+}
+.paper-authors {
+  font-size: 0.95rem;
+  color: $muted;
+  margin: 0 0 0.6rem;
+}
+.paper-venue {
+  font-size: 0.92rem;
+  color: $muted;
+  font-style: italic;
+  margin: 0 0 0.75rem;
+}
+.paper-abstract {
+  font-size: 0.97rem;
+  margin: 0.5rem 0 0.85rem;
+}
+
+.tag {
+  display: inline-block;
+  font-family: $font-family-sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: 2px;
+  margin-bottom: 0.55rem;
+  vertical-align: 2px;
+}
+.tag-jmp     { background: $crimson; color: #fff; }
+.tag-pub     { background: #EDEAE4; color: #4A4A4A; }
+.tag-rr      { background: #EDEAE4; color: #4A4A4A; }
+.tag-wp      { background: #F2F1EF; color: $muted; }
+
+.paper-links { margin-bottom: 0; }
+.paper-links:empty { display: none; }
+.paper-links a {
+  font-size: 0.9rem;
+  margin-right: 1.1rem;
+  border-bottom: 1px solid rgba(138, 21, 56, 0.25);
+}
+
+// ---- Teaching tables ----------------------------------------------------
+.teach-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.97rem;
+  margin: 0.75rem 0 1.5rem;
+}
+.teach-table td {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid $rule;
+  vertical-align: top;
+}
+.teach-table td:first-child { width: 55%; }
+.teach-table td:nth-child(2) { color: $muted; width: 28%; }
+.teach-table td:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: $ink;
+  white-space: nowrap;
+}
+.teach-table .eval-note {
+  font-weight: 400;
+  color: $muted;
+  font-size: 0.85rem;
+}
+
+.role-list {
+  font-size: 0.97rem;
+  columns: 2;
+  column-gap: 2.5rem;
+  padding-left: 1.1rem;
+}
+.role-list li { margin-bottom: 0.3rem; break-inside: avoid; }
+@media (max-width: 640px) { .role-list { columns: 1; } }
+
+// ---- Awards / simple definition rows -----------------------------------
+.award-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid $rule;
+  font-size: 0.97rem;
+}
+.award-row span:last-child { color: $muted; white-space: nowrap; }
+
+// ---- CV embed -----------------------------------------------------------
+.cv-frame {
+  width: 100%;
+  height: 1000px;
+  border: 1px solid $rule;
+  border-radius: 3px;
+  margin-top: 1.25rem;
+}
+@media (max-width: 640px) { .cv-frame { height: 550px; } }
+
+.btn-cv {
+  display: inline-block;
+  background: $crimson;
+  color: #fff !important;
+  font-size: 0.93rem;
+  font-weight: 600;
+  padding: 0.55rem 1.15rem;
+  border-radius: 3px;
+  text-decoration: none !important;
+}
+.btn-cv:hover { background: $crimson-dark; }
+
+// ---- Photo grid ---------------------------------------------------------
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+.photo-grid figure { margin: 0; }
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.photo-grid figcaption {
+  font-size: 0.86rem;
+  color: $muted;
+  margin-top: 0.4rem;
+}
+
+// ---- Footer -------------------------------------------------------------
+.nav-footer {
+  border-top: 1px solid $rule;
+  font-size: 0.86rem;
+  color: $muted;
+  margin-top: 4rem;
+  padding-top: 1.25rem;
+}
+.nav-footer a { color: $muted; }
+
+// ---- Print --------------------------------------------------------------
+@media print {
+  .navbar, .nav-footer { display: none; }
+}

@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "CNAME"
+    - "assets/**"
+    - "papers/**"
+
+website:
+  title: "Emma Kate Henry"
+  description: "Ph.D. candidate in Economics at the University of Alabama. Semiparametric and nonparametric panel data methods."
+  site-url: "https://ekhenry.com"
+  favicon: assets/favicon.png
+  open-graph: true
+  twitter-card: true
+
+  navbar:
+    logo: ""
+    title: "Emma Kate Henry"
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+      - href: personal.qmd
+        text: Personal
+    right:
+      - icon: envelope
+        href: mailto:ekhenry@crimson.ua.edu
+        aria-label: Email
+      # TODO(lily): paste your real LinkedIn URL here, then uncomment.
+      # - icon: linkedin
+      #   href: https://www.linkedin.com/in/YOUR-HANDLE
+      #   aria-label: LinkedIn
+      # TODO(lily): optional — Google Scholar / GitHub, if you want them.
+      # - icon: github
+      #   href: https://github.com/YOUR-HANDLE
+      #   aria-label: GitHub
+
+  page-footer:
+    left: "&copy; 2026 Emma Kate Henry"
+    right: "Built with [Quarto](https://quarto.org)"
+    border: false
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      body-width: 900px

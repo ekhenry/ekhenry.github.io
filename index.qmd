@@ -1,0 +1,81 @@
+---
+title: ""
+pagetitle: "Emma Kate Henry | Economics, University of Alabama"
+description-meta: "Ph.D. candidate in Economics at the University of Alabama working on nonparametric and semiparametric correlated random effects models for panel data. On the 2026–27 academic job market."
+---
+
+::: {.hero}
+![](assets/headshot.jpg){fig-alt="Emma Kate Henry"}
+
+::: {}
+<p class="hero-name">Emma Kate Henry</p>
+<p class="hero-role">Ph.D. Candidate in Economics<br>Culverhouse College of Business, University of Alabama</p>
+
+I develop **nonparametric and semiparametric methods for panel data**, with a focus on
+correlated random effects models that let researchers work with longitudinal data without
+committing to a functional form for how unobserved heterogeneity relates to the covariates.
+I apply these methods to questions in **innovation and firm dynamics**.
+:::
+:::
+
+::: {.jm-banner}
+**On the 2026–27 academic job market.** I am available for interviews at the ASSA meetings and
+by video. See my [job market paper](research.qmd#jmp) or
+[download my CV]({{< var cv_url >}}).
+:::
+
+## Research interests
+
+**Primary:** Econometric theory — panel data, nonparametric and semiparametric estimation,
+correlated random effects, interactive fixed effects.
+
+**Secondary:** Applied microeconomics — innovation, R&D and firm productivity; experimental
+economics.
+
+## Dissertation
+
+*Nonparametric and Semiparametric Correlated Random Effects Models*
+
+My dissertation has three chapters, each relaxing a functional-form assumption that standard
+panel estimators impose on unobserved heterogeneity. The first develops estimation and
+inference for nonparametric panel models under a Mundlak-type correlated random effects
+specification. The second extends correlated random effects to nonlinear panel models, replacing
+the usual parametric device with a nonparametric one so that structural parameters stay
+consistent when the relationship between individual effects and covariates is unknown. The
+third — my [job market paper](research.qmd#jmp) — brings semiparametric estimation to panel
+models with **interactive fixed effects**, and applies it to innovation activity.
+
+Committee: Daniel J. Henderson (chair), Soroush Ghazi, Robert Hammond, Alexandra Soberón,
+and Emmanuel Tsyawo.
+
+## Education
+
+<div class="award-row"><span>**Ph.D., Economics** — University of Alabama</span><span>expected 2027</span></div>
+<div class="award-row"><span>**M.A., Economics** — University of Alabama, Accelerated Master's Program</span><span>2022</span></div>
+<div class="award-row"><span>**B.S., Economics** — University of Alabama, *summa cum laude*</span><span>2022</span></div>
+
+## Awards and honors
+
+<div class="award-row"><span>Graduate Council Fellow, Graduate School, University of Alabama</span><span>2022 – present</span></div>
+<div class="award-row"><span>Outstanding Teaching by a Doctoral Student, Culverhouse College of Business</span><span>2026</span></div>
+<div class="award-row"><span>Three Minute Thesis (3MT) Competition, University of Alabama — **First Place**</span><span>2025</span></div>
+<div class="award-row"><span>Harold Elder Teaching Award, Best Economics Graduate Student</span><span>2025</span></div>
+<div class="award-row"><span>Departmental Summer Research Grant</span><span>2025, 2026</span></div>
+<div class="award-row"><span>President, Economics, Finance & Legal Studies Doctoral Students Organization</span><span>2024 – present</span></div>
+<div class="award-row"><span>Department Chair's Award</span><span>2022</span></div>
+<div class="award-row"><span>Helms' Scholar Award</span><span>2022</span></div>
+<div class="award-row"><span>Murray Havens Economics Award</span><span>2022</span></div>
+
+## Contact
+
+**Email** &nbsp; [ekhenry@crimson.ua.edu](mailto:ekhenry@crimson.ua.edu)
+
+Department of Economics, Finance & Legal Studies<br>
+Culverhouse College of Business, University of Alabama<br>
+Tuscaloosa, AL 35487
+
+<!-- NOTE(lily): I deliberately left your phone number off the site even though it's on
+     your CV. A public web page is a different exposure than a PDF you send to search
+     committees. Add it here if you'd rather have it. -->
+
+<!-- TODO(lily): add your office number/building if you want it listed. -->
