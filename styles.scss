@@ -200,6 +200,11 @@ h3 { font-size: 1.05rem; margin-top: 1.75rem; }
   color: $blue-mid;
   margin: 0 0 1.4rem;
 }
+.hero-role a {
+  color: inherit;
+  border-bottom: 1px solid rgba(44, 95, 138, 0.35);
+}
+.hero-role a:hover { color: $blue-deep; text-decoration: none; }
 
 @media (max-width: 860px) {
   .hero { grid-template-columns: 1fr; gap: 1.75rem; }

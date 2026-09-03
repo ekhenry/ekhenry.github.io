@@ -7,7 +7,7 @@ description-meta: "Ph.D. candidate in Economics at the University of Alabama wor
 ::: {.hero}
 ::: {}
 <p class="hero-name">Emma Kate Henry</p>
-<p class="hero-role">Ph.D. Candidate in Economics,<br>The University of Alabama</p>
+<p class="hero-role">Ph.D. Candidate in Economics,<br><a href="https://manderson.culverhouse.ua.edu/ph-d-programs/economics-phd/">The University of Alabama</a></p>
 
 I develop nonparametric and semiparametric methods for panel data, with a focus on correlated
 random effects models that let researchers work with longitudinal data without committing to a
