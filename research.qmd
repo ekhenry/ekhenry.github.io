@@ -95,7 +95,7 @@ developments. We illustrate the practical utility of our approach via an empiric
 <p class="paper-venue">*Journal of Life Care Planning*, 17(4), 31–37.</p>
 
 <p class="paper-links">
-<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqA-UzwAAAAJ&citation_for_view=DqA-UzwAAAAJ:u5HHmVD_uO8C">Citation</a>
+<a href="https://dx.doi.org/10.70385/001c.151606">Journal article</a>
 </p>
 :::
 
@@ -124,14 +124,15 @@ significant returns to public capital.
 </details>
 :::
 
-## Conference presentations
+## Conference presentations and invited seminars
 
 <div class="award-row"><span>Computational and Financial Econometrics, Berlin, Germany</span><span>2026</span></div>
 <div class="award-row"><span>Southern Economic Association, Houston, Texas</span><span>2026</span></div>
 <div class="award-row"><span>Midwest Econometrics Group, Cincinnati, Ohio</span><span>2026</span></div>
+<div class="award-row"><span>University of Cantabria, Santander, Spain</span><span>2026</span></div>
 <div class="award-row"><span>International Association for Applied Econometrics, Carçavelos, Portugal</span><span>2026</span></div>
 <div class="award-row"><span>European Workshop on Efficiency and Productivity Analysis, Munich, Germany</span><span>2026</span></div>
-<div class="award-row"><span>Conference of Southern Graduate Schools, 3MT Competition, Baton Rouge, Louisiana</span><span>2026</span></div>
+<div class="award-row"><span>Conference of Southern Graduate Schools, Three Minute Thesis Competition, Baton Rouge, Louisiana</span><span>2026</span></div>
 
 ## References
 
