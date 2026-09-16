@@ -4,7 +4,7 @@ pagetitle: "CV | Emma Kate Henry"
 description-meta: "Curriculum vitae of Emma Kate Henry, Ph.D. candidate in Economics at the University of Alabama."
 ---
 
-<a class="btn-cv" href="{{< var cv_url >}}">Download CV (PDF)</a>
+[Download CV (PDF)]({{< var cv_url >}}){.btn-cv}
 
 <p style="font-size:0.9rem; color:#6E6E73; margin-top:0.9rem;">
 Hosted on Dropbox and updated in place, so this link always serves the current version.
@@ -13,7 +13,7 @@ Hosted on Dropbox and updated in place, so this link always serves the current v
 <object class="cv-frame" data="assets/EmmaKateHenry_CV.pdf" type="application/pdf">
   <p style="padding:2rem;">
     Your browser can't display the embedded PDF.
-    <a href="{{< var cv_url >}}">Download it here</a> instead.
+    Use the <strong>Download CV (PDF)</strong> button above instead.
   </p>
 </object>
 

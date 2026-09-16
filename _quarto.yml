@@ -44,5 +44,29 @@ format:
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
+    # Open every link in a new tab EXCEPT links to another page of this site.
+    # Covers mailto: links, the student-evaluation PDFs, and the Dropbox CV links.
+    # In-page anchors (#jmp) stay put.
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var host = window.location.hostname;
+          document.querySelectorAll("a[href]").forEach(function (a) {
+            var raw = a.getAttribute("href");
+            if (!raw || raw.charAt(0) === "#") return;
+            if (a.hasAttribute("target")) return;
+            var url;
+            try { url = new URL(a.href, window.location.href); } catch (e) { return; }
+            var isInternalPage =
+              (url.protocol === "http:" || url.protocol === "https:") &&
+              url.hostname === host &&
+              (/\.html$/i.test(url.pathname) || /\/$/.test(url.pathname));
+            if (isInternalPage) return;
+            a.setAttribute("target", "_blank");
+            a.setAttribute("rel", "noopener noreferrer");
+          });
+        });
+        </script>
     grid:
       body-width: 1080px

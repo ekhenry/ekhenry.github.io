@@ -7,12 +7,16 @@ description-meta: "Ph.D. candidate in Economics at the University of Alabama wor
 ::: {.hero}
 ::: {}
 <p class="hero-name">Emma Kate Henry</p>
-<p class="hero-role">Ph.D. Candidate in Economics,<br><a href="https://manderson.culverhouse.ua.edu/ph-d-programs/economics-phd/">The University of Alabama</a></p>
+<p class="hero-role">Ph.D. Candidate in Economics,<br><a href="https://manderson.culverhouse.ua.edu/ph-d-programs/economics-phd/">University of Alabama</a></p>
 
 I develop nonparametric and semiparametric methods for panel data, with a focus on correlated
-random effects models that let researchers work with longitudinal data without committing to a
-functional form for how unobserved heterogeneity relates to the covariates. I apply these
-methods to questions in innovation and firm dynamics.
+random effects models. These models enable researchers to work with longitudinal data without
+committing to a functional form for how unobserved heterogeneity relates to the covariates. My
+three chapters relax that commitment in progressively challenging settings: an unknown
+regression function, a model that is nonlinear in parameters with an unrestricted individual
+effect, and a model in which common shocks affect units heterogeneously through interactive
+fixed effects. Each chapter pairs the estimator with a specification test, and I apply the
+methods to questions in innovation and R&D.
 
 ::: {.contact-list}
 <div class="contact-row"><span class="contact-label">Email</span><span class="contact-value"><a class="no-arrow" href="mailto:ekhenry@crimson.ua.edu">ekhenry@crimson.ua.edu</a></span></div>
@@ -45,7 +49,7 @@ interactive fixed effects.
 
 Three chapters, each relaxing a functional-form assumption that standard panel estimators impose
 on unobserved heterogeneity. The first develops nonparametric correlated random effects and is
-published in *Seven Decades of Econometrics and Beyond*. The second carries the approach into
+published in *Advanced Studies in Theoretical and Applied Econometrics*. The second carries the approach into
 nonlinear models, where the usual robustness of the linear case breaks down, and is under
 revision at *Economics Letters*. The third, my [job market paper](research.qmd#jmp), adds
 interactive fixed effects. [All three are on the research page](research.qmd).
@@ -57,6 +61,10 @@ Committee: [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) **(chair)**, 
 <div class="award-row"><span>**Ph.D., Economics**, University of Alabama</span><span>expected 2027</span></div>
 <div class="award-row"><span>**M.A., Economics**, University of Alabama (Accelerated Master's Program)</span><span>2022</span></div>
 <div class="award-row"><span>**B.S., Economics**, University of Alabama, *summa cum laude*</span><span>2022</span></div>
+
+## Funded research
+
+<div class="award-row"><span><a href="https://riskanalysis.unican.es/">Risk Analysis: Specification, Estimation and Testing</a><br>Spanish Ministry for Science and Innovation Grant (PID2024-156871NB-I00)<br><span style="font-size:0.88rem; color:#64717F;">Host: University of Cantabria, Santander, Spain</span></span><span>2025 – 2029</span></div>
 
 ## Awards and honors
 
