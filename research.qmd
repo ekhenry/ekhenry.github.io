@@ -1,5 +1,5 @@
 ---
-title: "Research and Work in Progress"
+title: ""
 pagetitle: "Research | Emma Kate Henry"
 description-meta: "Job market paper, publications, and working papers on nonparametric and semiparametric correlated random effects models for panel data."
 ---

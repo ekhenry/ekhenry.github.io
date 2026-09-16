@@ -19,11 +19,11 @@ fixed effects. Each chapter pairs the estimator with a specification test, and I
 methods to questions in innovation and R&D.
 
 ::: {.contact-list}
+<div class="contact-row"><span class="contact-label">CV</span><span class="contact-value">[Download PDF]({{< var cv_url >}})</span></div>
 <div class="contact-row"><span class="contact-label">Email</span><span class="contact-value"><a class="no-arrow" href="mailto:ekhenry@crimson.ua.edu">ekhenry@crimson.ua.edu</a></span></div>
 <div class="contact-row"><span class="contact-label">Scholar</span><span class="contact-value"><a href="https://scholar.google.com/citations?user=DqA-UzwAAAAJ&hl=en">Google Scholar</a></span></div>
 <div class="contact-row"><span class="contact-label">LinkedIn</span><span class="contact-value"><a href="https://www.linkedin.com/in/emma-kate-henry-626ab6213">linkedin.com/in/emma-kate-henry</a></span></div>
 <div class="contact-row"><span class="contact-label">ORCID</span><span class="contact-value"><a href="https://orcid.org/0009-0001-3462-5717">0009-0001-3462-5717</a></span></div>
-<div class="contact-row"><span class="contact-label">CV</span><span class="contact-value">[Download PDF]({{< var cv_url >}})</span></div>
 :::
 :::
 
@@ -41,7 +41,7 @@ methods to questions in innovation and R&D.
 **Primary:** Panel data, nonparametric and semiparametric estimation, correlated random effects,
 interactive fixed effects.
 
-**Secondary:** Innovation, R&D and firm productivity.
+**Secondary:** Innovation, R&D, and firm productivity.
 
 ## Dissertation
 
