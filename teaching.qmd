@@ -19,7 +19,7 @@ Business in 2026.
 <a href="assets/evaluations/EC471-Fall2025-SOI.pdf">Fall 2025 Student Evaluations of Instructor</a>
 </div>
 </details>
-<div class="course-meta"><span>Fall 2025</span><span class="course-score">4.93<span class="eval-note"> / 5.00</span></span></div>
+<div class="course-meta"><span>Fall 2025</span><span class="course-score">4.79<span class="eval-note"> / 5.00</span></span></div>
 :::
 
 ::: {.course}
@@ -39,7 +39,7 @@ Business in 2026.
 <a href="assets/evaluations/EC110-Summer2024-SOI.pdf">Summer 2024 Student Evaluations of Instructor</a>
 </div>
 </details>
-<div class="course-meta"><span>Summer 2024</span><span class="course-score">4.79<span class="eval-note"> / 5.00</span></span></div>
+<div class="course-meta"><span>Summer 2024</span><span class="course-score">4.93<span class="eval-note"> / 5.00</span></span></div>
 :::
 
 <p style="font-size:0.88rem; color:#64717F; margin-top:1rem;">

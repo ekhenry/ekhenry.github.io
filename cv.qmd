@@ -10,25 +10,12 @@ description-meta: "Curriculum vitae of Emma Kate Henry, Ph.D. candidate in Econo
 Hosted on Dropbox and updated in place, so this link always serves the current version.
 </p>
 
-<object class="cv-frame" data="assets/EmmaKateHenry_CV.pdf" type="application/pdf">
-  <p style="padding:2rem;">
-    Your browser can't display the embedded PDF.
-    Use the <strong>Download CV (PDF)</strong> button above instead.
-  </p>
-</object>
-
 <!-- ======================================================================= -->
-<!-- NOTE(lily): two copies of the CV are in play here, on purpose.          -->
+<!-- NOTE(lily): the CV lives in exactly one place now: the Dropbox link in  -->
+<!-- _variables.yml (cv_url). Replace the file in Dropbox and this page      -->
+<!-- follows automatically; nothing here needs touching.                     -->
 <!--                                                                        -->
-<!--  * The DOWNLOAD BUTTON points at Dropbox (per your advisor) so you can  -->
-<!--    replace the file there and never touch this site.                    -->
-<!--  * The PREVIEW BELOW is the copy in assets/EmmaKateHenry_CV.pdf, which  -->
-<!--    lives in the repo. Dropbox links can't be embedded in a viewer, so   -->
-<!--    the preview needs a local file.                                      -->
-<!--                                                                        -->
-<!-- That means the preview can go stale. Two options:                       -->
-<!--  (a) When you update the Dropbox CV, also drop the same PDF into        -->
-<!--      assets/ and push. One extra step, keeps a nice on-page preview.    -->
-<!--  (b) If that's annoying, delete the <object> block above entirely and   -->
-<!--      keep only the Dropbox button. Nothing else breaks.                 -->
+<!-- The old embedded preview was removed on purpose. It read from a second  -->
+<!-- copy of the PDF in assets/, which could silently fall behind Dropbox    -->
+<!-- and show visitors an out-of-date CV.                                    -->
 <!-- ======================================================================= -->

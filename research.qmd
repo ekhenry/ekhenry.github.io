@@ -66,7 +66,7 @@ Empirically, we find that both effects are significant, but work in opposite dir
 <p class="paper-kicker">Advanced Studies in Theoretical and Applied Econometrics · 2025</p>
 <p class="paper-title">Nonparametric Correlated Random-Effects Models</p>
 <p class="paper-authors">with [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) and [Alexandra Soberón](https://scholar.google.com/citations?user=9MmoofYAAAAJ&hl=es)</p>
-<p class="paper-venue">In *Seven Decades of Econometrics and Beyond*, vol. 57, 289–307.<br>Badi H. Baltagi and László Mátyás (eds.), Springer.</p>
+<p class="paper-venue">In *Seven Decades of Econometrics and Beyond*, vol. 57, 289–307.<br>[Badi H. Baltagi](https://www.badibaltagi.com/) and [László Mátyás](https://laszlo.matyas.ceu.edu/) (eds.), Springer.</p>
 
 <details class="abstract">
 <summary>Abstract</summary>
