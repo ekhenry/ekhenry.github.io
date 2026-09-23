@@ -22,7 +22,7 @@ methods to questions in innovation and R&D.
 <div class="contact-row"><span class="contact-label">CV</span><span class="contact-value">[Download PDF]({{< var cv_url >}})</span></div>
 <div class="contact-row"><span class="contact-label">Email</span><span class="contact-value"><a class="no-arrow" href="mailto:ekhenry@crimson.ua.edu">ekhenry@crimson.ua.edu</a></span></div>
 <div class="contact-row"><span class="contact-label">Scholar</span><span class="contact-value"><a href="https://scholar.google.com/citations?user=DqA-UzwAAAAJ&hl=en">Google Scholar</a></span></div>
-<div class="contact-row"><span class="contact-label">LinkedIn</span><span class="contact-value"><a href="https://www.linkedin.com/in/emma-kate-henry-626ab6213">linkedin.com/in/emma-kate-henry</a></span></div>
+<div class="contact-row"><span class="contact-label">LinkedIn</span><span class="contact-value"><a href="https://www.linkedin.com/in/emma-kate-henry-626ab6213">LinkedIn profile</a></span></div>
 <div class="contact-row"><span class="contact-label">ORCID</span><span class="contact-value"><a href="https://orcid.org/0009-0001-3462-5717">0009-0001-3462-5717</a></span></div>
 :::
 :::
@@ -69,7 +69,7 @@ Committee: [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) **(chair)**, 
 ## Awards and honors
 
 <div class="award-row"><span>Graduate Council Fellow, Graduate School, University of Alabama</span><span>2022 – present</span></div>
-<div class="award-row"><span>Outstanding Teaching by a Doctoral Student, Culverhouse College of Business</span><span>2026</span></div>
+<div class="award-row"><span>Outstanding Teaching by a Doctoral Student Award, Culverhouse College of Business</span><span>2026</span></div>
 <div class="award-row"><span>Outstanding Service by a Doctoral Student Award, Economics Ph.D. Program</span><span>2026</span></div>
 <div class="award-row"><span><a href="https://youtu.be/N91n9Qqrwp0">Three Minute Thesis (3MT) Competition, University of Alabama</a>, First Place</span><span>2025</span></div>
 <div class="award-row"><span>Harold Elder Teaching Award, Best Economics Graduate Student</span><span>2025</span></div>
