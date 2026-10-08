@@ -21,8 +21,8 @@ cv_url: "https://www.dropbox.com/scl/fi/dqhnf66xgtbwbxotetvod/EmmaKateHenry_CV.p
 # Leave jmp_public as false until the paper is ready to circulate - the site
 # will show "available on request" instead of a download link. Flip it to true
 # and the link appears everywhere at once.
-jmp_url: "https://www.dropbox.com/REPLACE-WITH-YOUR-JMP-LINK?dl=1"
-jmp_public: false
+jmp_url: "https://www.dropbox.com/scl/fi/op6gexrvp8bhwkd419rw5/EmmaKateHenry_JMP.pdf?rlkey=qkm06a8pagewyl8b4sz4udi5b&dl=1"
+jmp_public: true
 
 # Optional profile links. Leave blank to hide.
 linkedin: ""

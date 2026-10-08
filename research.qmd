@@ -15,21 +15,29 @@ description-meta: "Job market paper, publications, and working papers on nonpara
 <summary>Abstract</summary>
 <div class="abstract-body">
 Methods for estimation and inference in semiparametric panel data models with both correlated
-random effects and interactive fixed effects are developed, combining a Mundlak-style projection
-for the time-invariant heterogeneity with a local-linear filter for the time-varying component.
-Augmenting the partially linear regression with cross-sectional averages yields a Robinson-style
-estimator that requires no iteration, principal components, or knowledge of the number of
-factors. Asymptotic properties are established under joint large-<em>N</em>, large-<em>T</em>
-asymptotics and illustrated with an application to innovation activity.
+random effects and interactive fixed effects are developed. The framework combines a
+<a href="https://doi.org/10.2307/1913646">Mundlak (1978)</a> projection for the time-invariant
+component of unobserved heterogeneity with a local-linear filtering device, in the spirit of
+<a href="https://doi.org/10.1080/07474938.2013.740998">Huang (2013)</a>, for the time-varying
+component. Stacking the additive time effect and the interactive factor into a joint factor
+vector treats unobserved time heterogeneity uniformly. The estimator augments the partially
+linear regression with cross-sectional averages of the dependent variable and the regressors and
+recovers the parametric block by <a href="https://doi.org/10.2307/1912705">Robinson (1988)</a>
+partialling, requiring no iteration, no principal components and no knowledge of the number of
+factors; coefficients on time-invariant regressors, which fixed effects absorb, are identified
+through the Mundlak projection. Asymptotic properties are characterized under joint
+large-<em>N</em>, large-<em>T</em> asymptotics, and Monte Carlo evidence documents finite-sample
+performance. The estimator is applied to the firm-level idea production function, with
+<a href="https://doi.org/10.1257/aer.20180338">Bloom, Jones, Van Reenen and Webb (2020)</a> as
+the parametric benchmark. Returns to research intensity are increasing, and the linearization
+through which the benchmark is implemented is rejected while the constant-elasticity form it
+approximates is not. The returns-to-scale parameter the benchmark sets by assumption is
+estimated here, at a value the data cannot distinguish from the assumed one but which points to
+ideas getting harder to find faster than the benchmark reports.
 </div>
 </details>
 
-<p class="paper-venue">Draft available on request. [Email me](mailto:ekhenry@crimson.ua.edu?subject=Job%20market%20paper).</p>
-
-<!-- When the paper is ready to circulate: set jmp_public: true in _variables.yml and
-     replace the venue line above with:
-<p class="paper-links"><a href="{{< var jmp_url >}}">PDF</a></p>
--->
+<p class="paper-links">[PDF]({{< var jmp_url >}})</p>
 :::
 
 ## Publications
