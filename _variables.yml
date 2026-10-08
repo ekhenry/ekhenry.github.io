@@ -7,11 +7,16 @@
 # Per your advisor: host both on Dropbox so you can replace the file and keep
 # the same URL. To get a stable link:
 #   1. In Dropbox, right-click the file > Copy link
-#   2. Delete the "&st=..." part if present (it expires), and change the
-#      trailing  dl=0  to  dl=1  so it downloads instead of opening
-#      Dropbox preview. Paste that here.
-#   3. To update: replace the file in Dropbox *in place* (same filename,
+#   2. Delete the "&st=..." part if present (it expires).
+#   3. Set the trailing dl= to suit the file:
+#        dl=1  downloads the PDF straight away      (used for the CV)
+#        dl=0  opens it in Dropbox's viewer instead (used for the JMP)
+#      Every link on this site opens in a new tab, so either way the
+#      visitor keeps your page open behind it.
+#   4. To update: replace the file in Dropbox *in place* (same filename,
 #      overwrite). The link keeps working and serves the new version.
+#      Do NOT delete the old file first - that mints a new link and breaks
+#      the one on the site.
 # ---------------------------------------------------------------------------
 
 # Your CV on Dropbox.
@@ -21,7 +26,7 @@ cv_url: "https://www.dropbox.com/scl/fi/dqhnf66xgtbwbxotetvod/EmmaKateHenry_CV.p
 # Leave jmp_public as false until the paper is ready to circulate - the site
 # will show "available on request" instead of a download link. Flip it to true
 # and the link appears everywhere at once.
-jmp_url: "https://www.dropbox.com/scl/fi/op6gexrvp8bhwkd419rw5/EmmaKateHenry_JMP.pdf?rlkey=qkm06a8pagewyl8b4sz4udi5b&dl=1"
+jmp_url: "https://www.dropbox.com/scl/fi/op6gexrvp8bhwkd419rw5/EmmaKateHenry_JMP.pdf?rlkey=qkm06a8pagewyl8b4sz4udi5b&dl=0"
 jmp_public: true
 
 # Optional profile links. Leave blank to hide.
