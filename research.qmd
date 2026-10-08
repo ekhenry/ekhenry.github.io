@@ -37,7 +37,7 @@ ideas getting harder to find faster than the benchmark reports.
 </div>
 </details>
 
-<p class="paper-links">[PDF]({{< var jmp_url >}})</p>
+<p class="paper-links">[Link to Current Draft]({{< var jmp_url >}})</p>
 :::
 
 ## Publications
