@@ -29,8 +29,8 @@ through the Mundlak projection. Asymptotic properties are characterized under jo
 large-<em>N</em>, large-<em>T</em> asymptotics, and Monte Carlo evidence documents finite-sample
 performance. The estimator is applied to the firm-level idea production function, with
 <a href="https://doi.org/10.1257/aer.20180338">Bloom, Jones, Van Reenen and Webb (2020)</a> as
-the parametric benchmark. Returns to research intensity are increasing, and the linearization
-through which the benchmark is implemented is rejected while the constant-elasticity form it
+the parametric benchmark. Returns to research intensity are increasing, and a linear
+approximation to the benchmark is rejected while the constant-elasticity form it
 approximates is not. The returns-to-scale parameter the benchmark sets by assumption is
 estimated here, at a value the data cannot distinguish from the assumed one but which points to
 ideas getting harder to find faster than the benchmark reports.
@@ -43,9 +43,38 @@ ideas getting harder to find faster than the benchmark reports.
 ## Publications
 
 ::: {.paper}
+<p class="paper-kicker">Economics Letters · 2026</p>
+<p class="paper-title">Nonlinear Panel Data Models with Robust Correlated Random Effects</p>
+<p class="paper-authors">with [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) and [Andros Kourtellos](https://sites.google.com/view/kourtellos)</p>
+<p class="paper-venue">*Economics Letters*, 269, 113317.</p>
+
+<details class="abstract">
+<summary>Abstract</summary>
+<div class="abstract-body">
+While linear panel data models with correlated random effects maintain consistency even under
+misspecification of the individual effect, this robustness property fails in nonlinear settings.
+We address this limitation by modeling the individual effect as an unknown smooth function of
+time-invariant covariates, allowing an unrestricted relationship between unobserved
+heterogeneity and the regressors. Estimation proceeds by profile least squares, yielding
+&radic;<em>N</em>-consistent estimates of the structural parameters, which are identified from
+within-individual variation, while treating the nonparametric component as a nuisance function.
+Simulations confirm that the proposed estimator remains consistent when existing methods become
+biased and inconsistent. An application to the public capital productivity puzzle shows that
+flexible modeling of the production function and individual effects leads to positive and
+significant returns to public capital.
+</div>
+</details>
+
+<p class="paper-links">
+<a href="https://doi.org/10.1016/j.econlet.2026.113317">Journal article</a>
+</p>
+:::
+
+::: {.paper}
 <p class="paper-kicker">Journal of Risk and Uncertainty · 2026</p>
 <p class="paper-title">Contests with Ambiguous Prizes</p>
 <p class="paper-authors">with [Cary Deck](https://carydeck.weebly.com/), [Aidan Hathaway](https://sites.google.com/view/aidanhathaway), [Tigran Melkonyan](https://tamelkonyan-cpu.github.io/), and [Sam Redinger](https://www.samredinger.com/)</p>
+<p class="paper-venue">*Journal of Risk and Uncertainty*, 73, 1–25.</p>
 
 <details class="abstract">
 <summary>Abstract</summary>
@@ -105,31 +134,6 @@ developments. We illustrate the practical utility of our approach via an empiric
 <p class="paper-links">
 <a href="https://dx.doi.org/10.70385/001c.151606">Journal article</a>
 </p>
-:::
-
-## Under revision
-
-::: {.paper}
-<p class="paper-kicker">Economics Letters</p>
-<p class="paper-title">Nonlinear Panel Data Models with Robust Correlated Random Effects</p>
-<p class="paper-authors">with [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) and [Andros Kourtellos](https://sites.google.com/view/kourtellos)</p>
-
-<details class="abstract">
-<summary>Abstract</summary>
-<div class="abstract-body">
-While linear panel data models with correlated random effects maintain consistency even under
-misspecification of the individual effect, this robustness property fails in nonlinear settings.
-We address this limitation by modeling the individual effect as an unknown smooth function of
-time-invariant covariates, allowing an unrestricted relationship between unobserved
-heterogeneity and the regressors. Estimation proceeds by profile least squares, yielding
-&radic;<em>N</em>-consistent estimates of the structural parameters, which are identified from
-within-individual variation, while treating the nonparametric component as a nuisance function.
-Simulations confirm that the proposed estimator remains consistent when existing methods become
-biased and inconsistent. An application to the public capital productivity puzzle shows that
-flexible modeling of the production function and individual effects leads to positive and
-significant returns to public capital.
-</div>
-</details>
 :::
 
 ## Conference presentations and invited seminars

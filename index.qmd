@@ -50,8 +50,8 @@ interactive fixed effects.
 Three chapters, each relaxing a functional-form assumption that standard panel estimators impose
 on unobserved heterogeneity. The first develops nonparametric correlated random effects and is
 published in *Advanced Studies in Theoretical and Applied Econometrics*. The second carries the approach into
-nonlinear models, where the usual robustness of the linear case breaks down, and is under
-revision at *Economics Letters*. The third, my [job market paper](research.qmd#jmp), adds
+nonlinear models, where the usual robustness of the linear case breaks down, and is published in
+*Economics Letters*. The third, my [job market paper](research.qmd#jmp), adds
 interactive fixed effects. [All three are on the research page](research.qmd).
 
 Committee: [Daniel J. Henderson](https://sites.ua.edu/dhenderson/) **(chair)**, [Soroush Ghazi](https://sites.google.com/view/soroush-ghazi), [Robert Hammond](https://sites.google.com/view/bobhammond/), [Alexandra Soberón](https://scholar.google.com/citations?user=9MmoofYAAAAJ&hl=es), and [Emmanuel Tsyawo](https://estsyawo.github.io/).
